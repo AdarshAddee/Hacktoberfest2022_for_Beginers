@@ -38,3 +38,5 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!! 
 
 Have some patience to get successfully merged PR. Keep Patience!!!
+
+# HAPPY HACKING🤞❤💻!!!
