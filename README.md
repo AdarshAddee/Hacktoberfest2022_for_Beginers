@@ -31,7 +31,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - ⚓Name your file related to your topic.
 - ⚓Put your files in correct folder like .py in Python, .js in Javascript etc.
 - ⚓Make sure you have entered your github - username in your file as a comment.
-- ⚓Make sure you have entered your name in CONTRIBUTORS.md file (It's your responsibility).
+- ⚓Make sure you have entered your name in CONTRIBUTORS.md file as mentioned (It's your responsibility).
 - ⚓You can follow ME😁.
 
 # Note
