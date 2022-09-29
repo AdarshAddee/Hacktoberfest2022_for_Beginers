@@ -20,5 +20,14 @@ A Simple😉 and beginner friendly😊 Repo for all programmers and coders. All 
 ## Don't forget to read the contributing rules mentioned below to be successfully merged your PR and get rewards!!!
 
 🏹 Visit <a href="hacktoberfest.com" target="_blank">Hacktoberfest</a> to get more information about Hacktoberfest 2022!!!
+
 ✈ Visit <a href="https://hacktoberfest-swag.com" target="_blank">Hacktoberfest-swag</a> to know more about your swags and rewards!!!
+
+# 🛡Rules to Contribute
+- ⚓Star this repo to get latest updates.
+- ⚓Give your file a proper extension according to language. Ex. .py, .java, .js. html etc.
+- ⚓Name your file related to your topic.
+- ⚓Put your files in correct folder like .py in Python, .js in Javascript etc.
+- ⚓Make sure you have entered your github - username in your file as a comment.
+- ⚓You can follow ME😁.
 
