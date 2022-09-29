@@ -29,5 +29,10 @@ A Simple😉 and beginner friendly😊 Repo for all programmers and coders. All 
 - ⚓Name your file related to your topic.
 - ⚓Put your files in correct folder like .py in Python, .js in Javascript etc.
 - ⚓Make sure you have entered your github - username in your file as a comment.
+- ⚓Make sure you have entered your name in CONTRIBUTORS.md file (It's your responsibility).
 - ⚓You can follow ME😁.
 
+# Note
+All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!! 
+
+Have some patience to get successfully merged PR. Keep Patience!!!
