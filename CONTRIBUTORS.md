@@ -25,9 +25,11 @@
 | Dhruv Bhagatkar| <a href="https://github.com/dhruv2003">Dhruv Bhagatkar</a> | <a href="mailto:bhagatkardhruv2003@gmail.com">E-Mail</a> |
 | Kedar Solapure | <a href="https://github.com/kedarrr">Kedar Solapure</a> | <a href="mailto:kedarsolapure23@gmail.com">E-Mail</a> |
 | Abhishek Krishna | <a href="https://github.com/akrishna5">Abhishek Krishna</a> | <a href="mailto:akdpsgaya792@gmail.com">E-Mail</a> |
+| Aditya Wadkar | <a href="https://github.com/AdityaWadkar">Aditya Wadkar</a> | <a href="mailto:wadkaraditya923@gmail.com">E-Mail</a> |
 | Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
+
 
 
 
