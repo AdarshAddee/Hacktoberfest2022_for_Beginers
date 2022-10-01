@@ -25,6 +25,7 @@
 | Dhruv Bhagatkar| <a href="https://github.com/dhruv2003">Dhruv Bhagatkar</a> | <a href="mailto:bhagatkardhruv2003@gmail.com">E-Mail</a> |
 | Abhishek Krishna | <a href="https://github.com/akrishna5">Abhishek Krishna</a> | <a href="mailto:akdpsgaya792@gmail.com">E-Mail</a> |
 | Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
+| Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
 
 
 
