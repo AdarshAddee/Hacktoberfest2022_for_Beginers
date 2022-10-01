@@ -15,8 +15,10 @@
 | Sarthak Roy | <a href="https://github.com/sarthakroy2002">Sarthak Roy</a> | <a href="mailto:sarthakroy2002@gmail.com">E-Mail</a> |
 | Hardik Pratap Singh | <a href="https://github.com/hardik-pratap-singh">Hardik Pratap Singh</a> | <a href="mailto:hardikjanuary2021@gmail.com">E-Mail</a> |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
+| Amit Shinde | <a href="https://github.com/amitShindeGit">Amit Shinde</a> | <a href="mailto:99amitshinde@gmail.com">E-Mail</a> |
 | Shubhanshu Jha | <a href="https://github.com/ShubhanshuJha">ShubhanshuJha</a> | <a href="mailto:shubhanshujha.s19@gmail.com">E-Mail</a> |
 | Dhruv Bhagatkar| <a href="https://github.com/dhruv2003">Dhruv Bhagatkar</a> | <a href="mailto:bhagatkardhruv2003@gmail.com">E-Mail</a> |
+
 
 
 
