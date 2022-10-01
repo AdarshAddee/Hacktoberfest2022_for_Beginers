@@ -17,7 +17,7 @@
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
-| Khushi Marothi | <a href="https://github.com/khushimarothi">Adarsh Addee</a> | <a href="mailto:khushimarothi2002@gmail.com">E-Mail</a> |
+| Khushi Marothi | <a href="https://github.com/khushimarothi">Khushi Marothi</a> | <a href="mailto:khushimarothi2002@gmail.com">E-Mail</a> |
 
 <br>
 <h1>
