@@ -1,0 +1,23 @@
+body{
+    background-color: lightgray ;
+}
+
+.container{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-rps{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}

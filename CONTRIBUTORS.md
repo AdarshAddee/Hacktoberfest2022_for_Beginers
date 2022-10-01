@@ -13,6 +13,10 @@
 | ------|----------|---------- |
 | Adarsh Addee | <a href="https://github.com/AdarshAddee">Adarsh Addee</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
 | Sarthak Roy | <a href="https://github.com/sarthakroy2002">Sarthak Roy</a> | <a href="mailto:sarthakroy2002@gmail.com">E-Mail</a> |
+| Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
+| Khushi Marothi | <a href="https://github.com/khushimarothi">Khushi Marothi</a> | <a href="mailto:khushimarothi2002@gmail.com">E-Mail</a> |
+| Aditya Giri | <a href="https://github.com/aditya-464">Aditya Giri</a> | <a href="mailto:reetbharti873@gmail.com">E-Mail</a> |
+| KryPtoN | <a href="https://github.com/Kry9toN">Kry9toN</a> | <a href="mailto:kry9ton@kryptonproject.my.id">E-Mail</a> |
 | Hardik Pratap Singh | <a href="https://github.com/hardik-pratap-singh">Hardik Pratap Singh</a> | <a href="mailto:hardikjanuary2021@gmail.com">E-Mail</a> |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
 | Ashutosh Shukla|<a href = "https://github.com/AshutoshBuilds">Ashutosh Shukla</a>|<a href ="ashutoshshukla734.as@gmail.com">E-mail</a> |
@@ -20,6 +24,13 @@
 | Shubhanshu Jha | <a href="https://github.com/ShubhanshuJha">ShubhanshuJha</a> | <a href="mailto:shubhanshujha.s19@gmail.com">E-Mail</a> |
 | Dhruv Bhagatkar| <a href="https://github.com/dhruv2003">Dhruv Bhagatkar</a> | <a href="mailto:bhagatkardhruv2003@gmail.com">E-Mail</a> |
 | Kedar Solapure | <a href="https://github.com/kedarrr">Kedar Solapure</a> | <a href="mailto:kedarsolapure23@gmail.com">E-Mail</a> |
+| Abhishek Krishna | <a href="https://github.com/akrishna5">Abhishek Krishna</a> | <a href="mailto:akdpsgaya792@gmail.com">E-Mail</a> |
+| Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
+| Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
+
+
+
+
 
 
 
