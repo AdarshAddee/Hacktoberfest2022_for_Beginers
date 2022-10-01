@@ -18,6 +18,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - ⚡Create any pattern
 - ⚡Calculate fibonacci series with classes
 - ⚡Calculate factorial with classes
+- ⚡Print IP Address and Hostname
 
 ## Don't forget to read the contributing rules mentioned below to be successfully merged your PR and get rewards!!!
 
