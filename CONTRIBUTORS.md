@@ -17,6 +17,10 @@
 | ------|----------|---------- |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
 
+| Name | Github Link | Email ID |
+| ------|----------|---------- |
+| Abhishek Krishna | <a href="https://github.com/akrishna5">Abhishek Krishna</a> | <a href="mailto:akdpsgaya792@gmail.com">E-Mail</a> |
+
 <br>
 <h1>
   Happy Hacking ❤💻
