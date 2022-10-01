@@ -16,6 +16,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - ⚡Print 1 to 100 without using numbers
 - ⚡Make calculator without using operators in program
 - ⚡Create any pattern
+- ⚡Make any algorithm
 - ⚡Calculate fibonacci series with classes
 - ⚡Calculate factorial with classes
 - ⚡Print IP Address and Hostname
