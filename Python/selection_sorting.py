@@ -1,3 +1,5 @@
+#github - akrishna5
+
 element = [int(input("Enter yout element: ")) for number in range(int(input("Number of elements: ")))]
 # Traverse through all array elements 
 for i in range(len(element)): 
