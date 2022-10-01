@@ -13,6 +13,7 @@
 | ------|----------|---------- |
 | Adarsh Addee | <a href="https://github.com/AdarshAddee">Adarsh Addee</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
 | Sarthak Roy | <a href="https://github.com/sarthakroy2002">Sarthak Roy</a> | <a href="mailto:sarthakroy2002@gmail.com">E-Mail</a> |
+| Hardik Pratap Singh | <a href="https://github.com/hardik-pratap-singh">Hardik Pratap Singh</a> | <a href="mailto:hardikjanuary2021@gmail.com">E-Mail</a> |
 
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
