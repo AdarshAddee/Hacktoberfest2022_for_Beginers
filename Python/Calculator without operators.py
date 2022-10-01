@@ -1,4 +1,4 @@
-# AdarshCode
+# AdrshCode
 
 print(eval(input()))
 
