@@ -1,1 +1,1 @@
-print("Namaste BHarat")
+print("Namaste Bharat")
