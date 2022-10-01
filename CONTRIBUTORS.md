@@ -26,6 +26,7 @@
 | Abhishek Krishna | <a href="https://github.com/akrishna5">Abhishek Krishna</a> | <a href="mailto:akdpsgaya792@gmail.com">E-Mail</a> |
 | Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
+| Ritesh Kumar | <a href="https://github.com/RiteshKr00">Ritesh Kumar</a> | <a href="mailto:kumarritesh14062000@gmail.com">E-Mail</a> |
 
 
 
