@@ -16,9 +16,12 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - ⚡Print 1 to 100 without using numbers
 - ⚡Make calculator without using operators in program
 - ⚡Create any pattern
+- ⚡Make any algorithm
+- ⚡Add webpage parts.
 - ⚡Calculate fibonacci series with classes
 - ⚡Calculate factorial with classes
 - ⚡Print IP Address and Hostname
+- ⚡Any Game
 
 ## Don't forget to read the contributing rules mentioned below to be successfully merged your PR and get rewards!!!
 
