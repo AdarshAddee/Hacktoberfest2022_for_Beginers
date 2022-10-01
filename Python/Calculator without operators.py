@@ -1,0 +1,4 @@
+# AdarshCode
+
+print(eval(input()))
+
