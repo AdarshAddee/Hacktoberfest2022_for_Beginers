@@ -17,6 +17,7 @@ int main()
         }
         else
         {
+                // first = 0 and second = 1 are predefined, hence started the loop from the 2nd indexed fibonacci number
                 int first = 0, second = 1, sum = 0;
                 
                 for(int i = 2; i <= n; i++)
