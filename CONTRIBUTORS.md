@@ -16,6 +16,8 @@
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
+| Aditya Giri | <a href="https://github.com/aditya-464">Aditya Giri</a> | <a href="mailto:reetbharti873@gmail.com">E-Mail</a> |
+
 
 <br>
 <h1>
