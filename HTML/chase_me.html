@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Me If You Can</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  background-image: linear-gradient(#79d6e9,#a454e9);
+  font-family: "Nerko One", cursive;
+}
+h1{
+    color: red;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+}
+#container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#annoying-button {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  background: #eebcb4;
+  border-radius: 47% 49% 46% 44%;
+  border: 2px dotted #eebcb4;
+  transition: all 0.25s ease-out;
+}
+
+#annoying-button:hover {
+  cursor: pointer;
+}
+
+.eye {
+  position: relative;
+  display: inline-block;
+  background: white;
+  width: 20px;
+  height: 20px;
+  border: 1px dotted white;
+  border-radius: 50% 42%;
+  top: 25%;
+}
+
+#left-eye {
+  left: 12.5%;
+}
+
+#right-eye {
+  left: 25%;
+}
+
+.pupil {
+  position: relative;
+  height: 7px;
+  width: 7px;
+  left: 33%;
+  top: 33%;
+  background: black;
+  border-radius: 50%;
+  transition: all 0.25s;
+}
+
+.pupil:before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: white;
+  left: 66%;
+  top: 10%;
+}
+
+#mouth {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  right: 120%;
+  top: 90%;
+}
+    </style>
+</head>
+<body>
+    <h1>Chase Me If You Can</h1>
+    <div id="container">
+        <div id="annoying-button">
+          <div id="left-eye" class="eye">
+            <div id="left-pupil" class="pupil"></div>
+          </div>
+          <div id="right-eye" class="eye">
+            <div id="right-pupil" class="pupil"></div>
+            <div id="mouth"> 👄</div>
+          </div>
+        </div>
+        <div id="trash-talk"></div>
+      </div>
+<script>
+  const aab = document.querySelector("#annoying-button");
+
+let isMoving = false;
+let phraseCount = 0;
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  talkTrash();
+  setInterval(() => talkTrash(), 3000);
+});
+
+document.addEventListener("mousemove", (event) => {
+  rotatePupils(event);
+  calculateDistance(event, aab);
+});
+
+aab.addEventListener("click", () => playHehheh(phraseCount));
+
+function playHehheh() {
+  const audio = new Audio("https://assets.codepen.io/394353/hehheh.m4a");
+  audio.play();
+}
+
+function rotatePupils() {
+  const leftPupil = document.querySelector("#left-pupil");
+  const rightPupil = document.querySelector("#right-pupil");
+  const { x, y } = event;
+  const { left, top } = rightPupil.getBoundingClientRect();
+
+  const goRight = x >= left;
+  const goDown = y >= top;
+
+  const leftPos = goRight ? 50 : -50;
+  const upPos = goDown ? 50 : -50;
+
+  leftPupil.style.transform = `translate(${leftPos}%, ${upPos}%)`;
+  rightPupil.style.transform = `translate(${leftPos}%, ${upPos}%)`;
+}
+
+function calculateDistance(event, el) {
+  const { x, y } = event;
+  const { top, right, bottom, left } = el.getBoundingClientRect();
+  const distTilMove = 100;
+
+  const horizontalDist = left - x;
+  const verticalDist = top - y;
+
+  const isHorizontalInReach =
+    horizontalDist <= distTilMove && horizontalDist >= -distTilMove;
+
+  const isVerticalInReach =
+    verticalDist <= distTilMove && verticalDist >= -distTilMove;
+
+  if (isHorizontalInReach && isVerticalInReach) {
+    const moveRight = horizontalDist <= distTilMove && horizontalDist >= 0;
+    const moveDown = verticalDist <= distTilMove && verticalDist >= 0;
+
+    if (!isMoving) {
+      isMoving = true;
+      moveObject(el, x, y, moveDown, moveRight);
+    }
+  }
+}
+
+function moveObject(el, x, y, moveDown, moveRight) {
+  const isOutOfBounds = checkBoundaries(el);
+  const { newX, newY } = calculateNewPosition(
+    isOutOfBounds,
+    moveDown,
+    moveRight
+  );
+
+  for (let i = 0; i <= 1; i += 0.25) {
+    requestAnimationFrame((time) =>
+      animateButton({ el, percent: i, x, y, newX, newY })
+    );
+  }
+
+  isMoving = false;
+}
+
+function checkBoundaries(el) {
+  return (
+    el.offsetLeft <= 0 ||
+    el.offsetLeft >= window.innerWidth ||
+    el.offsetTop <= 0 ||
+    el.offsetTop >= window.innerHeight
+  );
+}
+
+function calculateNewPosition(isOutOfBounds, moveDown, moveRight) {
+  const distToMove = 75;
+
+  return isOutOfBounds
+    ? {
+        newX: Math.random() * window.innerWidth,
+        newY: Math.random() * window.innerHeight,
+      }
+    : {
+        newX: moveRight
+          ? Math.random() * distToMove + distToMove
+          : Math.random() * -distToMove - distToMove,
+        newY: moveDown
+          ? Math.random() * distToMove + distToMove
+          : Math.random() * -distToMove - distToMove,
+      };
+}
+
+function animateButton({ el, percent, x, y, newX, newY }) {
+  const distXToTravel = newX * percent;
+  const distYToTravel = newY * percent;
+
+  el.style.transform = `translate(${distXToTravel}px, ${distYToTravel}px)`;
+}
+</script>
+</body>
+</html>
