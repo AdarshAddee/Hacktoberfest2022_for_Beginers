@@ -1,0 +1,26 @@
+.row{
+    background: white
+}
+
+.products{
+      text-align: center;
+}
+
+.products h1{
+    color: rgb(221, 84, 63);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+.rounded{
+     transition: 1s;
+}
+
+.rounded:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }

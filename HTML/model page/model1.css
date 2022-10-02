@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins:wght@300&display=swap');
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 30px;
+  height: 40px;
+}
+
+/* #navbarSupportedCont ent > ul > li:nth-child(n) > a {
+  padding: 0 .8rem;
+} */
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(223, 50, 23);
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.nav1 img {
+  height: 60px;
+  margin-top: -20px;
+}
+
+.nav-item a {
+  margin-right: 50px;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+  color: rgb(221, 84, 63);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler::after {
+  border: none;
+}
+
+.navbar-toggler img {
+  margin-top: 2px;
+  height: 40px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.carousel-item {
+  height: 50vh;
+  min-height: 60vh;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item img {
+  height: 50vh;
+  min-height: 85vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  opacity: 0.7;
+}
+
+.well {
+  font-family: 'Poppins', sans-serif;
+}
+
+.lorem {
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 20px;
+}
+
+.lorem {
+  color: white;
+}
+
+#blocks {
+  text-decoration: none;
+  color: white;
+}
+
+#black {
+  background: white;
+}
+
+.cos {
+  background-color: white;
+  /* padding: 40px; */
+}
+
+.cos .text h5 {
+  color: rgb(221, 84, 63);
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.cos .text h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 65px;
+}
+
+.cos .text p {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.btn1 {
+  margin: 10px;
+  border-radius: 50px;
+  background: rgb(221, 84, 63);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.con {
+  background-color: white;
+}
+
+
+
+.brand {
+  background: white;
+}
+
+/* .service{
+  margin: 100px 20px;
+} */
+
+.brandserve img {
+  margin-left: 36.5%;
+  margin-top: 5rem;
+  height: 8rem;
+}
+
+.service h4 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.service p {
+  color: black;
+  font-family: 'Baloo Da 2', cursive;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/* #discover {
+  background: white;
+  padding-bottom: 10vh;
+  font-family: "Roboto Condensed", sans-serif;
+} */
+
+/* .sec {
+  padding: 20px 40px;
+} */
+
+
+.card1 {
+  background: white;
+}
+
+.card {
+  border: none;
+  /* left: 5.5vw; */
+  margin-bottom: 2rem;
+  background: white;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: 'Baloo Da 2', cursive;
+}
+
+/* .card h5 {
+  color: black;
+  left: 20vw;
+} */
+
+.card-body {
+  background: white;
+  color: black;
+}
+
+.serv {
+  color: rgb(191, 191, 191);
+  text-align: center;
+}
+
+.sbtn {
+  background: rgb(221, 84, 63);
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.sbtn:hover {
+  background: rgb(207, 59, 37);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:hover {
+  background: rgb(207, 59, 37);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+  background: white;
+}
+
+.text-uppercase {
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 500;
+}
+
+.text-light {
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 400;
+}
+
+.text-dark {
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 580;
+}
+
+.user p {
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 500;
+}
+
+.link h6 a {
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.xcon {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.xcon h4 {
+  color: rgb(221, 84, 63);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.xcon h1 {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+.gallery {
+  background: white;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.products h1 {
+  color: rgb(221, 84, 63);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* .navbar-dark .navbar-toggler-icon {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28221, 90, 70, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+} */
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-sizing: content-box;
+}
+
+
+.consw {
+  background: white;
+}
+
+.card1 {
+  background: white;
+}
+
+
+.conpro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conpro h1 {
+  color: rgb(207, 59, 37);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.conpro button {
+  background: rgb(207, 59, 37);
+  font-family: 'Poppins', sans-serif;
+}
+
+.conpro button:hover {
+  background: rgb(223, 50, 23);
+
+}
+
+.caro a {
+  text-decoration: none;
+}
+
+.caro a button {
+  margin-top: 85px;
+  margin-left: 600px;
+}
+
+.new1 {
+  background: white;
+  width: 50%;
+}
+
+/* media */
+
+@media (max-width: 413px) {
+  .brandserve img {
+    margin-left: 32%;
+  }
+}
+
+/* @media only screen and (max-width: 576px) {
+  .img1 {
+    height: 250px;
+    width: 200%;
+  }
+  
+  .navbar-nav hr{
+    background-color: black;
+    height: 1px;
+    border: 0px;
+  }
+  .nav-item a{
+    margin-right: 200px;
+  }
+  
+  .imga {
+    margin-left: 30vw;
+  }
+  .card {
+    width: 100%;
+  }
+  .carousel-item {
+    height: 28vh;
+    min-height: 50px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  
+
+  .vi img{
+    margin-top: -250px;
+    margin-bottom: 0;
+  }
+  #footer{
+    margin-top: -150px;
+  }
+
+  
+  .brandserve img{
+    margin-left: 160px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -70px;
+  }
+  .serve1{
+    margin-bottom: -125px;
+  }
+  .caro a button{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 150px;
+  }
+
+  .serve{
+    margin-top: -50px;
+  }
+  .brand{
+    margin-bottom: 90px;
+  }
+  .slide1 {
+    flex: 0 0 auto;
+    position: relative;
+  }
+  .slide-track {
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .align-items-center{
+    margin-top: -150px;
+  }
+  .link{
+    margin-top: 180px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: content-box;
+  }
+  .user{
+    margin-bottom: -50px;
+  }
+} */
