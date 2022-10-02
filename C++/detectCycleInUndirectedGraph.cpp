@@ -1,4 +1,5 @@
-  public:
+  class Solution{
+    public:
     // Function to detect cycle in an undirected graph.
     bool dfs(int v, int par, vector<int> g[], vector<int> &vis)
     {
