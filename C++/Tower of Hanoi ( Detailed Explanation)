@@ -1,0 +1,94 @@
+Tower of Hanoi is a very old problem. People had been solving it for many years. In this problem, you have to shift disk from one peg to another peg 
+using the third peg. Let me explain it more.
+
+ Concept of recursion is being used in this problem otherwise the code will become super complex and hard to understand .
+ The recursive solution is simple and easily understandable.
+
+ In the parameters of this method I have provided the number of disks and source and destination and via a peg.
+
+ -> void tower(int n, char source, char des, char via);
+
+ Inside this method, we have two cases one is base and other is the recursive case. 
+ In base case, we just print which ring is moving from which peg to which peg using some peg.
+
+
+->  if(n == 1){
+    cout << "Moved the ring "<< n << " from " << source << " to " << des << " via " << via << ".\n";
+    }
+
+In recursive case we use the method two times and in between them we print the message again
+
+->   else{
+      tower(n-1,source, via, des);
+      cout << "Moved the ring " << n << " from " << source << " to " << des << " via " << via << ".\n";
+      tower(n-1,via,des,source);
+}
+
+C++ code : 
+
+#include <iostream>
+
+using namespace std;
+
+void tower(int n, char source, char des, char via){
+if(n == 1){
+    cout << "Moved the ring "<< n << " from " << source << " to " << des << " via " << via << ".\n";
+
+}
+else{
+    tower(n-1,source, via, des);
+    cout << "Moved the ring " << n << " from " << source << " to " << des << " via " << via << ".\n";
+    tower(n-1,via,des,source);
+}
+
+}
+
+int main()
+{
+    int rings;
+    char source='A';
+    char des = 'B';
+    char via = 'C';
+    cout << "Enter the number of rings : "; 
+    cin >> rings;
+    tower(rings,source,des,via);
+
+    return 0;
+}
+
+
+
+Expected Output : 
+
+Enter the number of rings : 5
+Moved the ring 1 from A to B via C.
+Moved the ring 2 from A to C via B.
+Moved the ring 1 from B to C via A.
+Moved the ring 3 from A to B via C.
+Moved the ring 1 from C to A via B.
+Moved the ring 2 from C to B via A.
+Moved the ring 1 from A to B via C.
+Moved the ring 4 from A to C via B.
+Moved the ring 1 from B to C via A.
+Moved the ring 2 from B to A via C.
+Moved the ring 1 from C to A via B.
+Moved the ring 3 from B to C via A.
+Moved the ring 1 from A to B via C.
+Moved the ring 2 from A to C via B.
+Moved the ring 1 from B to C via A.
+Moved the ring 5 from A to B via C.
+Moved the ring 1 from C to A via B.
+Moved the ring 2 from C to B via A.
+Moved the ring 1 from A to B via C.
+Moved the ring 3 from C to A via B.
+Moved the ring 1 from B to C via A.
+Moved the ring 2 from B to A via C.
+Moved the ring 1 from C to A via B.
+Moved the ring 4 from C to B via A.
+Moved the ring 1 from A to B via C.
+Moved the ring 2 from A to C via B.
+Moved the ring 1 from B to C via A.
+Moved the ring 3 from A to B via C.
+Moved the ring 1 from C to A via B.
+Moved the ring 2 from C to B via A.
+Moved the ring 1 from A to B via C.
