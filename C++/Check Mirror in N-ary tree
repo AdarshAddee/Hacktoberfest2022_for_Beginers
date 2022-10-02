@@ -1,0 +1,41 @@
+class Solution {
+  public:
+       int checkMirrorTree(int n, int e, int a[], int b[]) {
+        int size = 2*e;
+
+        unordered_map<int,vector<int>> m1;
+        unordered_map<int,vector<int>> m2;
+    
+        for(int i = 0; i < size; i += 2) {
+            m1[a[i]].push_back(a[i+1]);
+        }
+    
+          for(int i = 0; i < size; i += 2) {
+            m2[b[i]].push_back(b[i+1]);
+        }
+    
+        for(auto x: m1){
+            int node = x.first;
+            auto it = m2.find(node);
+    
+            if(it != m2.end()){
+                auto p = x.second.begin(); //linear vector
+                auto q = it->second.end()-1; //rev vector
+    
+                for(p; p != x.second.end(); p++) {
+                    // cout<<*p<<" "<<*q<<endl;
+                    if(*p != *q)
+                        return false;
+    
+                    q--;
+                }
+                           
+                }
+                else{
+                    return false;
+                }
+        }
+    
+        return true;
+    }
+};
