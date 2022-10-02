@@ -3,9 +3,10 @@
   
 # Message
 <p>Enter your Name, Github Link & Your E-Mail Address in the given format. Don't try to change anything else!!!</p>
-<code>| Name | Github Link | E-Mail Address |</code> 
+<code>| Name | Github Link | E-Mail Address |</code>
 
 # List of Contributors
+
 <p>[*] Make sure you have updated your Name, Github link & E-Mail Id (enter your e-mail just after mailto:)!!!</p>
 <br>
   
@@ -29,16 +30,7 @@
 | Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
-
-
-
-
-
-
-
-
-
-
+| Daksh Kesarwani | <a href="https://github.com/fikriks">Fikri Khairul Shaleh</a> | <a href="fikriks130@gmail.com">E-Mail</a> |
 
 <br>
 <h1>
