@@ -9,11 +9,12 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - 💻 HTML
 - 💻 PHP
 - 💻 Python
+- 💻 Rust
 - 💻 Java
 - 💻 Javascript
 - 💻 Dart
 
-# ❄Prgrams
+# ❄Programs
 - ⚡Print 1 to 100 without using numbers
 - ⚡Make calculator without using operators in program
 - ⚡Create any pattern
