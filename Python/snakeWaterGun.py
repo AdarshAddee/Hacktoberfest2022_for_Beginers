@@ -1,4 +1,4 @@
-//Github Username: ashishshukla09
+# Github Username: ashishshukla09
 
 #  Snake Water Gun or Rock Paper Scissor.
 import random
