@@ -11,6 +11,7 @@
   
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
+| Samir Sumra | <a href="https://github.com/samir-27">samir sumra</a> | <a href="mailto:samirkainbox@gmail.com">E-Mail</a>|
 | Adarsh Addee | <a href="https://github.com/AdarshAddee">Adarsh Addee</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
 | Sarthak Roy | <a href="https://github.com/sarthakroy2002">Sarthak Roy</a> | <a href="mailto:sarthakroy2002@gmail.com">E-Mail</a> |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
