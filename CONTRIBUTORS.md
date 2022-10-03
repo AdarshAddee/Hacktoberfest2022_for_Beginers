@@ -30,7 +30,7 @@
 | Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
-| Daksh Kesarwani | <a href="https://github.com/fikriks">Fikri Khairul Shaleh</a> | <a href="fikriks130@gmail.com">E-Mail</a> |
+| Fikri Khairul Shaleh | <a href="https://github.com/fikriks">Fikri Khairul Shaleh</a> | <a href="fikriks130@gmail.com">E-Mail</a> |
 
 <br>
 <h1>
