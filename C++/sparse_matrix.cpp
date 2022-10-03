@@ -1,3 +1,6 @@
+// Github username: ajiteshsarangi
+// Aim: sparse matrix program
+// Date: 03-10-2022
 #include <iostream>
 using namespace std;
 class Element
