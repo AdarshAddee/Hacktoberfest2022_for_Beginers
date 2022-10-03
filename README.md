@@ -11,6 +11,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - 💻 Python
 - 💻 Java
 - 💻 Javascript
+- 💻 Dart
 
 # ❄Prgrams
 - ⚡Print 1 to 100 without using numbers
@@ -24,6 +25,8 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - ⚡Any Game
 
 ## Don't forget to read the contributing rules mentioned below to be successfully merged your PR and get rewards!!!
+
+## If you are using class, don't forget to implement it with it's objects
 
 🏹 Visit <a href="hacktoberfest.com" target="_blank">Hacktoberfest</a> to get more information about Hacktoberfest 2022!!!
 
