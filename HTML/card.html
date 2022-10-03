@@ -1,0 +1,136 @@
+<!-- villalb4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card - Hacktoberfest</title>
+
+  <!-- open styles -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=JetBrains+Mono:wght@200;300;400;500;600;700;800&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      height: 100vh;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .div_card {
+      display: flex;
+      border-radius: 8px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 1px 10px rgba(49, 3, 64, 0.223);
+      overflow: hidden;
+    }
+
+    .card_divContent {
+      padding: 15px;
+    }
+    .card_divContent > h1 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 32px;
+      font-weight: 800;
+      color: rgb(87, 51, 86);
+    }
+
+    .card_top {
+      margin: 20px 0 15px;
+    }
+    .card_top > h2 {
+      font-family: 'JetBrains Mono', monospace;
+      color: rgb(43, 43, 43);
+      margin-bottom: 10px;
+    }
+    .card_top > p {
+      max-width: 400px;
+      font-family: 'JetBrains Mono', monospace;
+      color: rgb(40, 40, 40);
+      font-size: 14px;
+    }
+
+    .card_mid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 40px 0 20px;
+      /* padding: 20px 0; */
+    }
+    .card_mid > div {
+      margin: 15px 0;
+      text-align: center;
+      color: rgb(99, 99, 99);
+    }
+    .card_mid > a {
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 15px 0;
+      text-align: center;
+      width: 100%;
+      filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px) drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+      background: linear-gradient(90deg, rgb(255, 215, 77) 0%, rgb(64, 221, 255) 25%, rgb(153, 0, 255) 85%) 0% 0% / 200% 100%;
+    }
+    .card_mid > a:hover {
+      filter: drop-shadow(rgba(255, 215, 77, 0.6) 0px 0px 5px) drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 5px);
+    }
+
+    .card_bottom {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      gap: 15px;
+      max-width: 130.5px;
+      font-family: 'JetBrains Mono', monospace;
+      /* background-color: red; */
+    }
+    .card_bottom > img {
+      max-width: 90px;
+    }
+
+    .card_divImg {
+      background-color: rgb(22, 13, 23);
+    }
+    .card_divImg > img {
+      max-width: 500px;
+    }
+  </style>
+  <!-- closed styles -->
+
+</head>
+<body>
+  <div class="div_card">
+    <div class="card_divContent">
+      <h1>Hacktoberfest 2022</h1>
+      <div class="card_top">
+        <h2>PREPARE TO HACK</h2>
+        <p>
+          HACKTOBERFEST IS FOR EVERYONE. WHETHER IT’S YOUR FIRST TIME—OR YOUR NINTH—IT’S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE. JOIN OTHER MEMBERS OF THE OPEN-SOURCE COMMUNITY ON THE HACKTOBERFEST DISCORD.
+        </p>
+      </div>
+      <div class="card_mid">
+        <div>
+          <span>you have time until October 30</span>
+        </div>
+        <a href="https://hacktoberfest.com/" target="_blank">Go to web</a>
+      </div>
+      <div class="card_bottom">
+        <span>by: </span>
+        <img src="https://www.underconsideration.com/brandnew/archives/digitalocean_logo.png" alt="">
+      </div>
+    </div>
+    <div class="card_divImg">
+      <img src="https://www.mediafire.com/convkey/a36c/w4deft96bs8mfi19g.jpg?size_id=5" alt="">
+    </div>
+  </div>
+</body>
+</html>
