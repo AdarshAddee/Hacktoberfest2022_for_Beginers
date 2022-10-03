@@ -26,6 +26,8 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 
 ## Don't forget to read the contributing rules mentioned below to be successfully merged your PR and get rewards!!!
 
+## If you are using class, don't forget to implement it with it's objects
+
 🏹 Visit <a href="hacktoberfest.com" target="_blank">Hacktoberfest</a> to get more information about Hacktoberfest 2022!!!
 
 ✈ Visit <a href="https://hacktoberfest-swag.com" target="_blank">Hacktoberfest-swag</a> to know more about your swags and rewards!!!
