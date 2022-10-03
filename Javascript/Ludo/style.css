@@ -1,0 +1,44 @@
+*{
+     margin:0; padding:0; 
+     font-family: 'Acme', sans-serif;
+}
+
+body{ background-color: pink; }
+
+.container{ width: 70%; margin: auto; text-align: center; }
+
+.dice{ text-align:center; display: inline-block; }
+
+#f5{     
+        margin:50pxs;
+		padding-top:20px;
+	    transform:rotate(0deg);
+		transition-property:all;
+		transition-duration:6s;
+}
+#f5:hover{
+			transform:rotate(360deg);
+}
+
+p{
+  font-size: 4rem; color: #00b894; 
+  text-shadow: 1px 1px white;
+}
+p:hover{
+	color:green;
+}
+
+button{
+    padding:10px; background-color:#00b894; color: white;font-size:30px;
+    border:none; margin:40px 100px 150px 150px;
+	transform:rotate(0deg);
+	transition-property:all;
+	transition-duration:6s;
+}
+button:hover{
+	transform:rotate(360deg);
+	background-color:green;
+}
+
+img{ width: 90%;margin:30px;padding:2px;
+     } 
