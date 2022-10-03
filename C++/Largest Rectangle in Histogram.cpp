@@ -1,3 +1,7 @@
+// Github username: omshaw
+// Aim: Calculate area of the largest rectangle in the histogram, Given a vector representing histogram's bar height
+// Date: 04/10/2022
+
 #include<bits/stdc++.h>
 using namespace std;
 
