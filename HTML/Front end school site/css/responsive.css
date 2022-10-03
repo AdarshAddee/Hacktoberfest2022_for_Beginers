@@ -1,0 +1,153 @@
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero_detail-box {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .hero_img-container {
+        width: 100%;
+    }
+
+    .hero-container.container {
+        padding-top: 45px;
+    }
+
+    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .hero_detail-box {
+        text-align: center;
+    }
+
+    .hero_detail-box h1 {
+        width: 100%;
+    }
+
+    .top_container::after {
+        display: none;
+    }
+
+    .top_container::before {
+        background-size: cover;
+    }
+
+    .info_section .col-md-3 {
+        padding: 20px 25px;
+        text-align: center;
+    }
+
+    .common_style img {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero-container {
+        padding-bottom: 100px;
+    }
+
+    .client_img-box::before,
+    .client_img-box::after {
+        content: "";
+        position: absolute;
+        width: 75px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #fdd31d;
+    }
+
+    .client_img-box::before {
+        top: 0;
+        transform: rotate(132deg);
+        left: -15px;
+        animation: beforeanimate 1s;
+        animation-delay: .1s;
+    }
+
+    .client_img-box::after {
+        bottom: 0px;
+        transform: rotate(135deg);
+        right: -15px;
+        animation: afteranimate 1s;
+        animation-delay: .1s;
+    }
+
+
+    @keyframes beforeanimate {
+        0% {
+            top: 43%;
+            transform: rotate(142deg);
+            left: 31%;
+
+        }
+
+        100% {
+            top: 0px;
+            transform: rotate(132deg);
+            left: -15px;
+        }
+    }
+
+    @keyframes afteranimate {
+        0% {
+            bottom: 46%;
+            transform: rotate(142deg);
+            right: 35%;
+        }
+
+        100% {
+            bottom: 0px;
+            transform: rotate(135deg);
+            right: -15px;
+        }
+    }
+
+    .contact_section {
+        padding: 0px 15px 0 15px;
+    }
+
+    .sub_page .contact_section {
+        padding: 45px 15px;
+    }
+
+    .contact_section input {
+        width: 100%;
+    }
+
+    .info_section .social-box {
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}

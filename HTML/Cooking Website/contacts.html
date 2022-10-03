@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> 
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.hoverIntent.minified.js"></script>
+    <script src="js/jquery.ui.totop.js"></script> 
+    <script src="js/forms.js"></script>  
+    <script>
+	 $(window).load(function(){
+            $().UItoTop({ easingType: 'easeOutQuart' });
+			$('#form1').forms({
+				ownerEmail:'#'
+			})
+		});
+</script>
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+<!--==============================header=================================-->
+<div class="main">
+     <div class="head">	     
+         <header>
+       <h1><a href="index"><strong>Cooking</strong><span>the best online recipes </span></a></h1>
+       <nav> 
+        <ul class="sf-menu">
+            <li><a href="index">About Us</a></li>
+             <li><a href="courses">Courses</a></li>
+             <li><a href="our-recipes">Our Recipes</a>
+               <ul>
+                 <li><a href="#">Fresh</a></li> 
+                  <li><a href="#">Video Recipes</a>
+                     <ul>
+                      <li><a href="#">On-line video</a></li>
+                   </ul> 
+                  </li>
+                  <li><a href="#">Archive</a></li>
+               </ul>
+             </li>
+             <li><a href="calendar">Calendar</a></li>
+             <li class="current"><a href="contacts">Contacts</a></li> 
+         </ul>
+       </nav>
+       <div class="clear"></div>
+      </header>
+   </div> 
+		<!--==============================content================================-->
+<section id="content">         
+  <div class="container_24">
+    <div class="wrapper bg-wrapper">
+	    <div class="grid_17 suffix_1">
+	    	<h2 class="padd-3">Stay in Touch</h2>
+            <div class="div-map">
+              <iframe id="map_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223854.2663669601!2d77.3160858588614!3d28.757688819541627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1cb4c86c605%3A0x7b33f3ad3232ef27!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1664703899180!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            	
+            </div>
+            <dl class="adress">
+	            <dt class="title1">8901 Modinagar,<br> Ghaziabad, 201204.</dt>
+                <dd><span>Freephone:</span>+91 8979000000</dd>
+                <dd><span>Telephone:</span>+91 8979000000</dd>
+                <dd><span>FAX:</span>+91 8979000000</dd>
+                <dd><strong>E-mail:</strong> <a href="#">grdp99@gmail.com</a></dd>
+            </dl>
+            <dl class="adress">
+	            <dt class="title1">8901 Modinagar,<br> Ghaziabad, 201204.</dt>
+                <dd><span>Freephone:</span>+91 8979000000</dd>
+                <dd><span>Telephone:</span>+91 8979000000</dd>
+                <dd><span>FAX:</span>+91 8979000000</dd>
+                <dd><strong>E-mail:</strong> <a href="#">grdp99@gmail.com</a></dd>
+            </dl>
+            
+            
+            <div class="clear"></div>
+	    </div>
+        
+        <div class="grid_6">
+           <div class="box">
+              <div class="left-1">
+              	<span class="title-box">Contact Form</span>
+              	<form id="form1">
+              		<fieldset>
+              		<div class="success">Contact form submitted!<br>
+              		<strong>We will be in touch soon.</strong>
+              		</div> 
+              		<label class="name wrapper-after">      
+              		<input type="text" value="Name:">
+              		<span class="error error-empty">*This is not a valid name.</span> <span class="empty error-empty">*This field is required.</span>            
+              		</label><div class="clear"></div>
+              		<label class="email wrapper-after">   
+              		<input type="text" value="E-mail:"> 
+              		 <span class="error error-empty">*This is not a valid email address.</span> <span class="empty error-empty">*This field is required.</span>                     
+              		</label><div class="clear"></div> 
+              		<label class="phone wrapper-after"> 
+              		<input type="text" value="Phone:">
+              		 <span class="error error-empty">*This is not a valid phone number.</span> <span class="empty error-empty">*This field is required.</span>       
+              		</label><div class="clear"></div>      
+              		<label class="message wrapper-after">    
+              		<textarea  class="img-shadow">Message:</textarea>
+              		<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+              		</label>
+              		<div class="clear"></div>
+              		<div class="buttons2">               
+              		<a href="#" data-type="submit" class="button-1">Submit<span></span></a>
+              		<div class="clear"></div>    
+              		 </div>
+              		<div class="clear"></div>
+              	  </fieldset>     
+              	</form>
+              </div>
+           </div>
+        </div>
+        <div class="clear"></div>
+        <div class="grid_24 bg-bot"></div> 
+     </div><!--the end of wrapper-->
+  </div>
+</section>
+	<!--==============================footer=================================-->		
+	<footer>
+		<div class="main-footer">
+	         <div class="container_24">
+                   <div class="grid_17">
+                      <div class="icons">
+                          <span class="facebook">Join Us on <a href="#">Facebook<strong></strong></a></span>
+                          <span class="twitter">Join Us on <a href="#">Twitter<strong></strong></a></span>
+                      </div>
+                   </div>   
+		  	       <div class="grid_7"> 
+                       <p>Cooking &copy; HacktoberFest2022 | <a href="privacy-policy">Privacy policy</a></p>
+                   </div>
+	          <div class="clear"></div>
+	        </div>
+        </div>
+	</footer>
+</div>	
+</body>
+</html>

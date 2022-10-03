@@ -1,0 +1,14 @@
+*+html{overflow:auto;}
+.sf-menu li{behavior:url(js/PIE.htc); position:relative;}
+.sf-menu>li>ul, .sf-menu li li ul{behavior:url(js/PIE.htc);position:absolute;}
+.image, .button, .button-1, .box, .new, .new div, #map_canvas, .div-map{behavior:url(js/PIE.htc); position:relative;}
+.button span, .button-1 span{background:none;}
+.button:hover span, .button-1:hover span{background:none;}
+.button:hover, .button-1:hover{background:#5da813;}
+.button, .button-1{padding:10px 22px 11px 22px;}
+.img-pags li a img{filter: alpha(opacity=50)}
+.img-pags li.active a img,
+.img-pags li a:hover img{filter: alpha(opacity=100)}
+#prev.disabled span, #next.disabled span{background:none;}
+#prev.disabled, #next.disabled{background:#5da813;}
+#form1 input, #form1 textarea{behavior:url(js/PIE.htc); position:relative;}
