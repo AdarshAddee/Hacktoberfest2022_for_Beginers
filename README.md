@@ -35,7 +35,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 
 ## 🛡Follow rules strictly for successful merged PR!!!
 
-# ❄Prgrams
+# ❄Programs
 - ⚡Create any pattern
 - ⚡Make any algorithm (exclude calculator or related to it)
 - ⚡Print 1 to 100 without using numbers
