@@ -1,0 +1,298 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+struct node
+{
+    int info;
+    struct node *link;
+};
+
+struct node *start, *temp, *q, *p;
+
+void create_list(int);
+struct node * traversal(struct node *);
+struct node * add_at_beg(struct node *, int);
+struct node * add_at_end(struct node *, int);
+struct node * afteradd(struct node *, int, int);
+struct node * beforeadd(struct node *, int, int);
+struct node * add_at_pos(struct node *, int, int);
+struct node * del_at_beg(struct node *);
+struct node * del_at_end(struct node *);
+struct node * del_particular_data(struct node *, int);
+
+
+void main()
+{
+    int n, data, choice=0, pos;
+    start = NULL;
+    printf("Enter the no of nodes: ");
+    scanf("%d", &n);
+    for(int i=0;i<n;i++)
+    {
+        printf("Enter the data: ");
+        scanf("%d", &data);
+        create_list(data);
+    }
+    traversal(start);
+
+
+    while(choice!=10)
+    {
+        printf("\n\nMenu: \n1.Traversal \n2.Add at Beginning \n3.Add at End \n4.Add after Element \n5.Add before Element \n6.Add at Position \n7.Delete at Beginning \n8.Delete at End \n9.Delete Selected Data \n10.Exit");
+        printf("\n\nEnter choice: ");
+        scanf("%d", &choice);
+        
+        switch(choice)
+        {
+            case 1:
+                traversal(start);
+                break;
+            case 2:
+                printf("Enter data to be added: ");
+                scanf("%d", &data);
+                start = add_at_beg(start, data);
+                printf("%d \n", start);
+                traversal(start);
+                break;
+            case 3:
+                printf("Enter data to be added: ");
+                scanf("%d", &data);
+                start = add_at_end(start, data);
+                traversal(start);
+                break;
+            case 4:
+                printf("Enter element after which data is to be added: ");
+                scanf("%d", &pos);
+                printf("Enter data to be added: ");
+                scanf("%d", &data);
+                start = afteradd(start, data, pos);
+                traversal(start);
+                break;
+            case 5:
+                printf("Enter element before which data is to be added: ");
+                scanf("%d", &pos);
+                printf("Enter data to be added: ");
+                scanf("%d", &data);
+                start = beforeadd(start, data, pos);
+                traversal(start);
+                break;
+            case 6:
+                printf("Enter position at which data is to be added: ");
+                scanf("%d", &pos);
+                printf("Enter data to be added: ");
+                scanf("%d", &data);
+                start = add_at_pos(start, pos, data);
+                traversal(start);
+                break;
+            case 7:
+                start = del_at_beg(start);
+                traversal(start);
+                break;
+            case 8:
+                start = del_at_end(start);
+                traversal(start);
+                break;
+            case 9:
+                printf("Enter data to be deleted: ");
+                scanf("%d", &data);
+                start = del_particular_data(start, data);
+                traversal(start);
+                break;
+            default:
+                break;
+        }
+    }    
+
+    
+}
+
+
+void create_list(int data)
+{
+    temp = (struct node*)malloc(sizeof(struct node));
+    temp->info=data;
+    temp->link=NULL;
+    if(start==NULL)
+    {
+        start = temp;
+    }
+    else
+    {
+        q=start;
+        while(q->link!=NULL)
+        {
+            q=q->link;
+        }
+        q->link=temp;
+    }
+}
+
+
+struct node * traversal(struct node * start)
+{
+    if(start==NULL)
+    {
+        printf("\nList is empty");
+        return start;
+    }
+    q=start;
+    printf("\nThe List: ");
+    while(q!=NULL)
+    {
+        printf("%d ",q->info);
+        q=q->link;
+    }
+    return start;
+}
+
+
+struct node * add_at_beg(struct node *start, int data)
+{
+    temp = (struct node *)malloc(sizeof(struct node));
+    temp->info=data;
+    temp->link=start;
+    start = temp;
+    return start;
+}
+
+
+struct node * add_at_end(struct node *start, int data)
+{
+    temp=(struct node *)malloc(sizeof(struct node));
+    temp->info=data;
+    p=start;
+    while(p->link!=NULL)
+    {
+        p=p->link;
+    }
+    p->link=temp;
+    temp->link=NULL;
+    return start;
+}
+
+
+struct node * afteradd(struct node *start, int data, int item)
+{
+    p = start;
+    while(p!=NULL)
+    {
+        if(p->info == item)
+        {
+            temp=(struct node *)malloc(sizeof(struct node*));
+            temp->info = data;
+            temp->link = p->link;
+            p->link = temp;
+            return start;
+        }
+        p = p->link;
+    }
+    printf("%d is not present in the list.", item);
+}
+
+
+struct node * beforeadd(struct node *start, int data, int item)
+{
+    p = start;
+    if(p->info == item)
+    {
+        temp=(struct node *)malloc(sizeof(struct node*));
+        temp->info = data;
+        temp->link = start;
+        start = temp;
+        return start;
+    }
+    while(p->link!=NULL)
+    {
+        if(p->link->info==item)
+        {
+            temp=(struct node *)malloc(sizeof(struct node*));
+            temp->info = data;
+            temp->link = p->link;
+            p->link = temp;
+            return start;
+        }
+        p = p->link;
+    }  
+    printf("%d is not present in the list.", item);
+}
+
+
+struct node * add_at_pos(struct node * start, int pos, int data)
+{
+    int i;
+    temp=(struct node *)malloc(sizeof(struct node*));
+    temp->info = data;
+    if(pos==1)
+    {
+        temp->link = start;
+        start = temp;
+        return start;
+    }
+    p = start;
+    for(i=1; i<pos-1 && p!=NULL; i++)
+    {
+        p = p->link;
+    }
+    if(p==NULL)
+    {
+        printf("There are less than %d elements", pos);
+    }
+    else
+    {
+        temp->link = p->link;
+        p->link = temp;
+    }
+    return start;
+}
+
+
+struct node * del_at_beg(struct node * start)
+{
+    temp = start;
+    start = start->link;
+    free(temp);
+    return start;
+}
+
+
+struct node * del_at_end(struct node * start)
+{
+    p=start;
+    while(p->link->link!=NULL)
+    {
+        p = p->link;
+    }
+    temp = p->link;
+    p->link = NULL;
+    free(temp);
+    return start;
+}
+
+
+struct node * del_particular_data(struct node * start, int data)
+{
+    if(start == NULL)
+    {
+        printf("List is empty.");
+        return start;
+    }
+    if(start->info == data)
+    {
+        temp = start;
+        start = start->link;
+        free(temp);
+        return start;
+    }
+    p = start;
+    while(p->link!=NULL)
+    {
+        if(p->link->info==data)
+        {
+            temp = p->link;
+            p->link = temp->link;
+            free(temp);
+            return start;
+        }
+        p = p->link;
+    }
+}
