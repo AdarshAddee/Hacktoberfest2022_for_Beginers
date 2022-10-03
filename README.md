@@ -11,6 +11,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - 💻 Python
 - 💻 Java
 - 💻 Javascript
+- 💻 Dart
 
 # ❄Prgrams
 - ⚡Print 1 to 100 without using numbers
