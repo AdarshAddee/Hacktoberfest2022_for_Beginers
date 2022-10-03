@@ -31,12 +31,14 @@
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Apurva Dubey | <a href="https://github.com/umbridge">umbridge</a> | <a href="mailto:apurva925dubey@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
+| Chirag Chandnani | <a href="https://github.com/chiragchandnani10">Chirag Chandnani</a> | <a href="chandnanichirag101@gmail.com">E-Mail</a> |
 | Shivam Jaiswal | <a href="https://github.com/Shivaminc">Shivam Jaiswal</a> | <a href="shivamjaiswal010267@gmail.com">E-mail</a> |
 | Ashish Kushwaha | <a href="https://github.com/AshishKingdom">Ashish Kushwaha</a> | <a href="ashishkushwahacb@gmail.com">E-Mail</a> |
 | Dhruv Arora | <a href="https://github.com/lord-benjamin">Dhruv Arora</a> | <a href="mailto:dhruvarora2612@gmail.com">E-Mail</a> |
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="edgar_gonzalezja@hotmail.com">E-Mail</a> |
+
 
 
 
