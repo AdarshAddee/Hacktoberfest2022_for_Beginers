@@ -30,6 +30,7 @@
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Apurva Dubey | <a href="https://github.com/umbridge">umbridge</a> | <a href="mailto:apurva925dubey@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="dakshkesarwanijasra@gmail.com">E-Mail</a> |
+| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="edgar_gonzalezja@hotmail.com">E-Mail</a> |
 
 
 
