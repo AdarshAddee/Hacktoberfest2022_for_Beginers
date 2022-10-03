@@ -6,6 +6,13 @@
 #                     32123
 #                     32223
 #                     33333
+
+#Name : Aditya Mandage
+#Github Profile :- https://github.com/AdityaMandage
+#Profession : Student
+
+
+
 n = int(input())
 MAX = 100
 
