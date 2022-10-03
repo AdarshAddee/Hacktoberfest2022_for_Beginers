@@ -1,0 +1,50 @@
+<!-- Github username: vitorquadros -->
+<!-- Aim: The aim of the project is to guess the random number by voice recognition -->
+<!-- Date: Jun 23, 2022 -->
+
+<!-- Works better on google chrome! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Guess the number</title>
+  </head>
+  <body>
+    <header>
+      <button id="en-button">EN</button>
+      <button id="pt-button">PT</button>
+    </header>
+
+    <h1>Can you guess the secret number?</h1>
+
+    <h3>
+      The secret number is between <span id="min-value">0</span> and
+      <span id="max-value">100</span>
+    </h3>
+
+    <div id="guess" class="message"></div>
+
+    <script async src="./app/initLang.js"></script>
+    <script src="./app/sortNumber.js"></script>
+    <script src="./app/voiceRecognition.js"></script>
+    <script src="./app/validation.js"></script>
+  </body>
+</html>

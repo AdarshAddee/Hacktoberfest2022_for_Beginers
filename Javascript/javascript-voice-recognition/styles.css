@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  --bg-color: #f1ddbf;
+  --primary-color: #525e75;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 100;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--font-family);
+  margin: 0 50px;
+}
+
+header {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+header button {
+  padding: 6px 20px;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.selected {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+header button:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 4rem;
+  margin-top: 20px;
+}
+
+.message {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+
+.box {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-play-again {
+  font-weight: 400;
+  padding: 8px 15px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  background: var(--bg-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn-play-again:hover {
+  background: var(--primary-color);
+  color: var(--bg-color);
+}
