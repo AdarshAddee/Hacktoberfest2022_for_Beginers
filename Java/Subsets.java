@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-class subsets
+class Subsets
 {
 	public static void main(String[] args)
 	{
