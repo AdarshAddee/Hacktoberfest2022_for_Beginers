@@ -3,9 +3,10 @@
   
 # Message
 <p>Enter your Name, Github Link & Your E-Mail Address in the given format. Don't try to change anything else!!!</p>
-<code>| Name | Github Link | E-Mail Address |</code> 
+<code>| Name | Github Link | E-Mail Address |</code>
 
 # List of Contributors
+
 <p>[*] Make sure you have updated your Name, Github link & E-Mail Id (enter your e-mail just after mailto:)!!!</p>
 <br>
   
@@ -36,19 +37,7 @@
 | Dhruv Arora | <a href="https://github.com/lord-benjamin">Dhruv Arora</a> | <a href="mailto:dhruvarora2612@gmail.com">E-Mail</a> |
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="samriddh2703@gmail.com">E-Mail</a> |
-| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="edgar_gonzalezja@hotmail.com">E-Mail</a> |
-
-
-
-
-
-
-
-
-
-
-
-
+| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="edgar_gonzalezja@hotmail.com">E-Mail</a> | <a href="https://github.com/pedrofaria18">Pedro Faria</a> | <a href="pedrof.andrade16@gmail.com">E-Mail</a>
 
 <br>
 <h1>
