@@ -1,0 +1,54 @@
+class Solution {
+public:
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        
+        int n = heights.size();
+        int m = heights[0].size();
+        
+        // MIN HEAP OF {diff,{i,j}}
+        priority_queue<pair<int,pair<int,int>>,
+        vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>>>  pq;
+        
+        // make a difference matrix 
+        vector<vector<int>> difference(n,vector<int>(m,1e9));
+        difference[0][0] = 0;
+        
+        pq.push({0,{0,0}});
+        
+        while(!pq.empty())
+        {
+            auto p = pq.top();
+            int diff = p.first;
+            int row = p.second.first;
+            int col = p.second.second;
+            pq.pop();
+            if(row == n-1 && col == m-1)return diff;
+            
+            //check in all 4 directions
+            vector<int> delta = {0,1,0,-1,0};
+            for(int k=0;k<delta.size()-1;k++)
+            {
+                int delrow = row + delta[k];
+                int delcol =  col + delta[k+1];
+                
+                // if these new coordinates are in contraints of the matrix
+                if(delrow<n && delcol<m && delrow>=0 && delcol>=0)
+                {
+                    // we have to choose a path where the effort or the maximum absolute diff
+                    // is minimum
+                    int newEffort = max(abs(heights[delrow][delcol]-heights[row][col]),diff);
+                    if(newEffort < difference[delrow][delcol]){                          
+                    difference[delrow][delcol] = newEffort;
+                        pq.push({newEffort,{delrow,delcol}});
+
+                    }
+                       
+                }
+            }
+            
+        }
+        
+        return -1;
+        
+    }
+};
