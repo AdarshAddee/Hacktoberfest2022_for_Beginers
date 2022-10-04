@@ -1,0 +1,72 @@
+#include <stdio.h>
+int push(int[],int);
+int pop(int[],int);
+void display(int[],int);
+void peek(int[],int);
+#define MAX 5
+
+int main(){
+    int stack[MAX],top=-1,choice;
+    printf("Enter 1 for Push\nEnter 2 for Pop\nEnter 3 for Display\nEnter 4 for Peek\nEnter 5 for Exit\n");
+    do{
+        printf("\nEnter your choice: ");
+        scanf("%d",&choice);
+        switch(choice){
+            case 1: if(top==MAX-1){
+                printf("Stack is Full");
+                break;
+            }
+            else{
+                top=push(stack,top);
+                break;
+            }
+
+            case 2: if(top==-1){
+                printf("Stack is Empty");
+                break;
+            }
+            else{
+                top=pop(stack,top);
+                break;
+            }
+
+            case 3: display(stack,top);
+            break;
+
+            case 4: peek(stack,top);
+            break;
+
+            case 5: break;
+
+            default: printf("Wrong Input");
+        }
+    }while(choice!=5);
+}
+
+int push(int stack[],int top){
+    int x;
+    printf("Enter the element: ");
+    scanf("%d",&x);
+    top++;
+    stack[top]=x;
+    return top;
+}
+
+int pop(int stack[],int top){
+    printf("The element that is popped out is %d",stack[top]);
+    top--;
+    return top;
+}
+
+void display(int stack[],int top){
+    int temp=top;
+    printf("The elements in the stack are: ");
+    while(temp>=0){
+        printf("%d ",stack[temp]);
+        temp--;
+    }
+}
+
+void peek(int stack[],int top){
+    printf("The top most element is %d",stack[top]);
+}
