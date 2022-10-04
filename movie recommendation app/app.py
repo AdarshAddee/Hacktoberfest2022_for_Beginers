@@ -428,4 +428,3 @@ if __name__ == '__main__':
         """
         st.markdown(contact_form, unsafe_allow_html=True)
         local_css("style.css")
-# code written by juhi vishwakarma
