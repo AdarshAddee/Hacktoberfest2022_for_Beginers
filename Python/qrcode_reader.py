@@ -1,3 +1,7 @@
+# Github username: fiqgant
+# Aim: Add python program that can read QR Code
+# Date: 04 October 2022
+
 from pyzbar import pyzbar
 import sys
 from PySide6.QtWidgets import *
