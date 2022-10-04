@@ -1,14 +1,14 @@
 <h1>✨Happy Hacktoberfest 2022✨</h1>
 <p>Hacktoberfest is a yearly event whiich encourages not only programmers and coders but also non-technical background to contribute in open source and start their journey with open source.</p>
-  
+
 # Message
 <p>Enter your Name, Github Link & Your E-Mail Address in the given format. Don't try to change anything else!!!</p>
-<code>| Name | Github Link | E-Mail Address |</code> 
+<code>| Name | Github Link | E-Mail Address |</code>
 
 # List of Contributors
 <p>[*] Make sure you have updated your Name, Github link & E-Mail Id (enter your e-mail just after mailto:)!!!</p>
 <br>
-  
+
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
 | Adarsh Addee | <a href="https://github.com/AdarshAddee">Adarsh Addee</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
@@ -38,6 +38,7 @@
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="edgar_gonzalezja@hotmail.com">E-Mail</a> |
+| Abdul Samad | <a href="https://github.com/Samadmemon991">Abdul Samad</a> | <a href="samadmemon991@gmail.com">E-Mail</a> |
 
 
 
