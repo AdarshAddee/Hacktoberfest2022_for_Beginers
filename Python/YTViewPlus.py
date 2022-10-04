@@ -1,3 +1,8 @@
+# Github username: helplessThor
+# Aim: Program to increase yt views
+# Date: 9th October, 2022
+
+
 from selenium import webdriver
 import time
 
