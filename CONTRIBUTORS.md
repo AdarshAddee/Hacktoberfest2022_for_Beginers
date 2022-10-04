@@ -17,6 +17,7 @@
 | Khushi Marothi | <a href="https://github.com/khushimarothi">Khushi Marothi</a> | <a href="mailto:khushimarothi2002@gmail.com">E-Mail</a> |
 | Aditya Giri | <a href="https://github.com/aditya-464">Aditya Giri</a> | <a href="mailto:reetbharti873@gmail.com">E-Mail</a> |
 | KryPtoN | <a href="https://github.com/Kry9toN">Kry9toN</a> | <a href="mailto:kry9ton@kryptonproject.my.id">E-Mail</a> |
+| Udyansingh | <a href="https://github.com/Udyansingh">Udyan Singh</a> | <a href="udyansingh07@gmail.com">E-Mail</a> |
 | Hardik Pratap Singh | <a href="https://github.com/hardik-pratap-singh">Hardik Pratap Singh</a> | <a href="mailto:hardikjanuary2021@gmail.com">E-Mail</a> |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
 | Ashutosh Shukla|<a href = "https://github.com/AshutoshBuilds">Ashutosh Shukla</a>|<a href ="ashutoshshukla734.as@gmail.com">E-mail</a> |
@@ -30,6 +31,19 @@
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Pradeep Khatri | <a href="https://github.com/PradeepKhatri">Pradeep Khatri</a> | <a href="mailto:pradeepkhatri121@gmail.com">E-Mail</a> |
+| Apurva Dubey | <a href="https://github.com/umbridge">umbridge</a> | <a href="mailto:apurva925dubey@gmail.com">E-Mail</a> |
+| Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
+| Chirag Chandnani | <a href="https://github.com/chiragchandnani10">Chirag Chandnani</a> | <a href="mailto:chandnanichirag101@gmail.com">E-Mail</a> |
+| Shivam Jaiswal | <a href="https://github.com/Shivaminc">Shivam Jaiswal</a> | <a href="mailto:shivamjaiswal010267@gmail.com">E-mail</a> |
+| Ashish Kushwaha | <a href="https://github.com/AshishKingdom">Ashish Kushwaha</a> | <a href="mailto:ashishkushwahacb@gmail.com">E-Mail</a> |
+| Dhruv Arora | <a href="https://github.com/lord-benjamin">Dhruv Arora</a> | <a href="mailto:dhruvarora2612@gmail.com">E-Mail</a> |
+| Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
+| Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
+| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
+
+
+
+
 
 
 
