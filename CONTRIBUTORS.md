@@ -30,6 +30,8 @@
 | Rahul Jangle | <a href="https://github.com/Rronny01/">Ronny</a> | <a href="mailto:jangalerahul001@gmail.com">E-Mail</a> |
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
+| Aakash Jha | <a href="https://github.com/sky-jha">Aakash Jha</a> | <a href="mailto:aakashkjha0500@gmail.com">E-Mail</a> |
+| Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Atinder Kumar | <a href="https://github.com/atinder11">Atinder Kumar</a> | <a href="mailto:atinderkumar1111@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Shobhit Tiwari | <a href="https://github.com/shobhitt8">Shobhit Tiwari</a> | <a href="mailto:shobhitt0812@gmail.com">E-Mail</a> |
@@ -48,6 +50,7 @@
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
+
 
 
 
