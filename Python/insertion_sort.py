@@ -2,7 +2,6 @@
 // Aim: Sorting data in python 
 // Date: 04/08/2022
 
-// start coding
 
 
 def insertionSort(arr):
