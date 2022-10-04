@@ -1,0 +1,33 @@
+body{
+    background-color: #393E46;
+    text-align: center;
+}
+footer{
+    margin: 100px 0;
+    font-size: 1.5rem;
+    color: #EEEEEE;
+}
+.heading{
+    font-family: 'Lobster';
+    color: #4ECCA3;
+    font-size: 10rem;
+    text-shadow: 5px 0 black;
+    margin: 40px;
+}
+.dice{
+    display: inline-block;
+    margin: 0 50px;
+}
+.player{
+    font-size: 2.5rem;
+    font-family: 'Indie Flower';
+    color: #4ECCA3;
+    font-weight: bold;
+}
+.headtop{
+    font-family: 'Indie Flower';
+    color: #4ECCA3;
+    font-size: 3rem;
+    text-shadow: 3px 0 black;
+    margin-bottom: 0;
+}
