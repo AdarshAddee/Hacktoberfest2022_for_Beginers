@@ -1,3 +1,10 @@
+// Github username: Buggy-coder
+// Aim: Sorting data in python 
+// Date: 04/08/2022
+
+// start coding
+
+
 def insertionSort(arr):
   
    
@@ -11,5 +18,4 @@ def insertionSort(arr):
                 arr[j + 1] = arr[j]
                 j -= 1
         arr[j + 1] = key
-  
   
