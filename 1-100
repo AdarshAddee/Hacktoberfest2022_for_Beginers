@@ -1,0 +1,5 @@
+
+end=ord('e')
+start=ord('.')
+for i in range(start, end) :
+      print(i)
