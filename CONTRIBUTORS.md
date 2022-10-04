@@ -3,9 +3,10 @@
   
 # Message
 <p>Enter your Name, Github Link & Your E-Mail Address in the given format. Don't try to change anything else!!!</p>
-<code>| Name | Github Link | E-Mail Address |</code> 
+<code>| Name | Github Link | E-Mail Address |</code>
 
 # List of Contributors
+
 <p>[*] Make sure you have updated your Name, Github link & E-Mail Id (enter your e-mail just after mailto:)!!!</p>
 <br>
   
@@ -44,6 +45,10 @@
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Pradeep Khatri | <a href="https://github.com/PradeepKhatri">Pradeep Khatri</a> | <a href="mailto:pradeepkhatri121@gmail.com">E-Mail</a> |
 | Apurva Dubey | <a href="https://github.com/umbridge">umbridge</a> | <a href="mailto:apurva925dubey@gmail.com">E-Mail</a> |
+| Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:;dakshkesarwanijasra@gmail.com">E-Mail</a> |
+| Fikri Khairul Shaleh | <a href="https://github.com/fikriks">Fikri Khairul Shaleh</a> | <a href="mailto:fikriks130@gmail.com">E-Mail</a> |
+| Shivam Jaiswal | <a href="https://github.com/Shivaminc">Shivam Jaiswal</a> | <a href="mailto:shivamjaiswal010267@gmail.com">E-mail</a> |
+| Ashish Kushwaha | <a href="https://github.com/AshishKingdom">Ashish Kushwaha</a> | <a href="mailto:ashishkushwahacb@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Chirag Chandnani | <a href="https://github.com/chiragchandnani10">Chirag Chandnani</a> | <a href="mailto:chandnanichirag101@gmail.com">E-Mail</a> |
 | Shivam Jaiswal | <a href="https://github.com/Shivaminc">Shivam Jaiswal</a> | <a href="mailto:shivamjaiswal010267@gmail.com">E-mail</a> |
@@ -56,7 +61,6 @@
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
-
 
 
 
