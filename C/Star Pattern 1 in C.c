@@ -1,14 +1,31 @@
-// Sarthak Roy (sarthakroy2002)
-#include<stdio.h>
+
+include<stdio.h>
+
+#include<conio.h>
 int main()
 {
-	for(int i=0;i<5;i++)
-	{
-		for(int j=i;j<5;j++)
-		{
-			printf("*");
-		}
-		printf("\n");
-	}
-	return 0;
+int n, i , j;
+	
+printf("Enter number of rows: ");
+	
+scanf("%d",&n);
+	
+for(i = 1; i <= n; i++)
+{
+for(j = 1; j <= i; j++)
+{
+printf("*");
+}
+printf("\n");
+}
+for(i = n; i >= 1; i--)
+{
+for(j = 1; j <= i; j++)
+{
+printf( "*");
+}
+
+printf("\n");
+}
+return 0;
 }
