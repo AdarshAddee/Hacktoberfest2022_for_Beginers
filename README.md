@@ -13,6 +13,8 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - 💻 Python
 - 💻 Java
 - 💻 Javascript
+- 💻 flutter
+- 💻 Ruby
 
 # 🛡Rules to Contribute
 - ⚓Star this repo to get latest updates.
