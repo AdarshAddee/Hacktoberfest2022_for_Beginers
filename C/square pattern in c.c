@@ -1,5 +1,3 @@
-// AdrshCode
-
 #include<stdio.h>
 int main()
 {
@@ -8,10 +6,10 @@ int main()
     printf("Enter size of square = ");
     scanf("%u",&squareSide);
     //outer loop
-    for(x = 0; x < squareSide; ++x)
+    for(x = 0; x < squareSide; x++)
     {
         //inner loop
-        for(y = 0; y < squareSide; ++y)
+        for(y = 0; y < squareSide; y++)
         {
             printf("*");
         }
