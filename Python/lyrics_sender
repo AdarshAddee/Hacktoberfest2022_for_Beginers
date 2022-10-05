@@ -1,0 +1,20 @@
+import pyautogui, lyricsgenius, time
+
+Fileobject = open("Lyrics_1.txt", "w")
+genius = lyricsgenius.Genius('oB7WK6vwtF_79I1bU8eTmK_HVd3oh5Syqx3oE0mcey7Z8Pp7Yn1ugdf3MCIX0OvS')
+SongName = input("Input Song Name: ")
+Artist = input("Input Artist Name: ")
+song = genius.search_song(SongName, Artist)
+L = song.lyrics
+
+with open('Lyrics_1.txt', 'w', encoding='utf8') as f:
+    f.write(L)
+
+print("Ready for Typing...")
+time.sleep(5)
+f = open("Lyrics_1.txt", 'r')
+
+for word in f:
+    pyautogui.typewrite(word)
+    pyautogui.press("enter")
+    time.sleep(0.7)
