@@ -1,3 +1,6 @@
+
+## Kindly Don't Contribute in This Repo because your Repo will not be counted in Hacktoberfest!
+
 # ✨#Hacktoberfest 2022✨
 A Simple😉 beginner friendly😊 Repo for all programmers and coders. All contributors are requested to star🌟this repo and and folllllow me.
 
@@ -56,6 +59,6 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 # Note
 All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!! 
 
-Have some patience to get successfully merged PR. Keep Patience!!!
+Have some patience to get successfully merged PR. Keep Patience!!! 
 
 # HAPPY HACKING🤞❤💻!!!
