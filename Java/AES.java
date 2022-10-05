@@ -1,3 +1,7 @@
+// Github username: aniruddho-mitra
+// Aim:Aim is to implement AES Algorithm using Java to enhance the security of data.
+// Date: 05/10/2022
+
 import javax.crypto.Cipher;  
 import javax.crypto.SecretKey;  
 import javax.crypto.SecretKeyFactory;  
