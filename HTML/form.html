@@ -1,0 +1,94 @@
+// Github Username - Sulagna-Dutta-Roy (https://github.com/Sulagna-Dutta-Roy)
+// Simple form using Html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta charset ="viewport" content="width-device=width,initial-scale=1">
+        <title>Registration Form Page HTML</title>
+    </head>
+<style>
+body
+{
+    background-color: rgb(180, 198, 206);
+}
+form p{
+    text-align: center;
+}
+form h1{
+    text-align: center;
+}
+.container 
+{
+    text-align: center;
+}
+#btn {
+    content: '';
+    font-size: 25px;
+    background: rgb(17, 73, 73);
+    color: #fff;
+    font-weight: 300;
+    border: 1px solid rgb(17, 73, 73);
+    border-radius: 2px;
+}
+#btn:hover {
+    background: transparent;
+    color: #fff;
+}
+</style>
+<body>
+    <form>
+        <h1> Registration Form </h1>
+        <p>Fill the form carefully*</p>
+        <div class="container">
+           <label>Firstname</label>
+           <input type="text" id="fname" placeholder="" required>
+           <label>Lastname</label>
+           <input type="text" id="lname" placeholder="" required>
+            <br/><br/>
+           <label>Serial No</label>
+           <input type="text" id="lname" placeholder="" required>
+           <label>Date</label>
+           <input type="date" id="lname" placeholder="">
+           <!---------------------------------------------------->
+            <div class="infos"><br/>
+              <label>Gender></label>
+              <label>Male<input type="radio" name="Male" value="male"></label>
+              <label>Female<input type="radio" name="Female" value="female"></label>
+              <label>Others<input type="radio" name="Others" value="others"></label><br/>
+              <br/>
+        <legend>
+            <label>College Name</label>
+            <input type="text" value="">
+            <label>University</label>
+            <input type="text" value=""><br/><br/>
+            <label>Department:</label>
+            <select>
+                <option value="cs">None</option>
+                <option value="cs">CS</option>
+                <option value="ece">ECE</option>
+                <option value="It">IT</option>
+                <option value="eee">EEE</option>    
+            </select>
+            </legend><br/>
+        <legend>
+            <label>Email:</label>
+            <input type="text">
+            <label>Phone Number:</label>
+            <input type="text">
+        </legend><br/>
+        <label>Address:</label><br/>
+        <textarea rows="2" cols="50" name="address" id="address"></textarea>
+        <br/>
+        <legend>
+            <input type="button" id="btn" value="Submit">
+            <input type="button" id="btn" value="Reset">
+        </legend>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
