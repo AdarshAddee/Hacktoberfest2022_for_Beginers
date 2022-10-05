@@ -1,0 +1,15 @@
+// Github username: andianiputri
+// Aim: Menampilkan semua huruf
+// Date: 10/4/2022
+
+// start coding
+
+class Main {
+  public static void main(String[] args) {
+
+    char c;
+
+    for(c = 'A'; c <= 'Z'; ++c)
+      System.out.print(c + " ");
+    }
+}
