@@ -1,4 +1,4 @@
-// PradeepKhatri - https://github.com/PradeepKhatri
+// Prianshu Prasad - https://github.com/rphrp1985
 
 #include <stdio.h>
 
@@ -13,13 +13,16 @@ void printArray(int *A,int n)
 
 void BubbleSort(int *A,int n)
 {
-    int temp;
-    for(int i=0;i<n-1;i++)
+    int temp,flag=1;
+    for(int i=0;i<n-1 && flag;i++)
     {
+      flag=0;
+      
         for(int j=0;j<n-i-1;j++)
         {
             if(A[j] > A[j+1])
             {
+                flag=1;
                 temp = A[j];
                 A[j] = A[j+1];
                 A[j+1] = temp;
