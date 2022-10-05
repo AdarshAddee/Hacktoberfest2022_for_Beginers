@@ -1,1 +1,1 @@
-print("Namaste Bharat")
+print("Namaste Bharat") # print name
