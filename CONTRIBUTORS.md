@@ -54,38 +54,10 @@
 | Shivam Jaiswal | <a href="https://github.com/Shivaminc">Shivam Jaiswal</a> | <a href="mailto:shivamjaiswal010267@gmail.com">E-mail</a> |
 | Ashish Kushwaha | <a href="https://github.com/AshishKingdom">Ashish Kushwaha</a> | <a href="mailto:ashishkushwahacb@gmail.com">E-Mail</a> |
 | Dhruv Arora | <a href="https://github.com/lord-benjamin">Dhruv Arora</a> | <a href="mailto:dhruvarora2612@gmail.com">E-Mail</a> |
-| Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
-| Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
-| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
-| Amisha Rani | <a href ="https://github.com/AmishaRani">Amisha Rani</a> | <a href="mailto:amisharani911@gmail.com">E-Mail</a> |
-| Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
-| Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
-| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
-| Sneha Chaudhary | <a href="https://github.com/Edgarzerocool">Sneha Chaudhary</a> | <a href="mailto:chaudharysneha1610@gmail.com">E-Mail</a> |
-| Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
-| Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
-| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="tdilshan2010@gmail.com">E-Mail</a> |
+| Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="samriddh2703@gmail.com">E-Mail</a> |
+| Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="edgar_gonzalezja@hotmail.com">E-Mail</a> |
+| Simran Sahni | <a href="https://github.com/Simran-Sahni">Simran Sahni</a> | <a href="sahnisimran58@gmail.com">E-Mail</a> |
 
 <br>
 <h1>
