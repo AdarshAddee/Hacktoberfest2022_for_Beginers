@@ -63,6 +63,7 @@
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
 | Sneha Chaudhary | <a href="https://github.com/Edgarzerocool">Sneha Chaudhary</a> | <a href="mailto:chaudharysneha1610@gmail.com">E-Mail</a> |
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
+| Praneesh Sharma | <a href="https://github.com/Praneesh-Sharma>Praneesh Sharma</a> | <a href="mailto:pegasus30042004@gmail.com">E-Mail</a>
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
 
