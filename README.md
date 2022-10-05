@@ -1,3 +1,6 @@
+
+## Kindly Don't Contribute in This Repo because your Repo will not be counted in Hacktoberfest!
+
 # ✨#Hacktoberfest 2022✨
 A Simple😉 beginner friendly😊 Repo for all programmers and coders. All contributors are requested to star🌟this repo and and folllllow me.
 
