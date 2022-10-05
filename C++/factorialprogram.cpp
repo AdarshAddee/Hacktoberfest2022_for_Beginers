@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-// github username navdeepk037   https://github.com/navdeepk037
+
 int fact(int n)
 {
     int factorial=1;
-    for(int i=n;i>=1;i--)
+    for(int i=n;i>1;i--)
     factorial=factorial*i;
     return factorial;
 }
