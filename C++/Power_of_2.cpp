@@ -5,11 +5,12 @@
 using namespace std;
 
 bool isPowerOf2(int n) {
-    return (n && !(n & (n - 1)));
+    return 1073741824%n==0 ? 1:0;
 }
 
 int main(int argc, char const *argv[])
 {
+  
     int n;
     cout << "Enter a number: ";
     cin >> n;
