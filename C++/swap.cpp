@@ -1,3 +1,8 @@
+// Github username: haris-bit
+// Aim: Swaps two numbers
+// Date: October 5th, 2022
+
+// start coding
 #include<iostream>
 using namespace std;
 void swap(int &a, int &b)
@@ -8,7 +13,6 @@ void swap(int &a, int &b)
 	
 }
 
-
 int main()
 {
 	
@@ -16,10 +20,6 @@ int main()
 	int num2 = 200;
 	swap(num1, num2);
 	cout<<num1<<endl;
-	cout<<num2<<endl;
-	//references
-	
-	
-	
+	cout<<num2<<endl;	
 	return 0;
 }
