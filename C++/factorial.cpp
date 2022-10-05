@@ -24,11 +24,11 @@ Factorial::calculateFactorial()
     }
     else
     {
-        while (num > 1)
-        {
-            factorial = factorial * num;
-            num--;
-        }
+      for(;num>1;num--)
+      {
+          factorial = factorial * num;
+      }
+        
     }
 }
 
