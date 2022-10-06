@@ -1,0 +1,67 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void zarr(string s, vector<int>& z)
+{
+    int n=s.length();
+
+    int l,r,k;
+
+    l=r=0;
+
+    for(int i=1;i<n;i++)
+    {
+        if(i>r)
+        {
+           l=r=i;
+
+           while(r<n && s[r-l]==s[r])
+                r++;
+
+            z[i]=r-l;
+            r--;
+        }
+        else{
+            
+            k= i-l;
+
+            if(z[k]< r-i+1)
+                z[i]=z[k];
+            else{
+                l=i;
+                while(r<n && s[r-l]==s[r])
+                    r++;
+                
+                z[i]=r-l;
+                r--;
+            }
+        }
+    }
+}
+
+void z_algorithm(string txt, string pat)
+{
+    string total= pat+"$"+txt;
+
+    int l=total.length();
+    vector<int> z(l,0);
+
+    zarr(total,z);
+
+    for(int i=0;i<l;i++)
+    {
+        if(z[i]==pat.length())
+        {
+            cout<<"Pattern is found at "<<i-z[i]-1<<endl;
+        }
+    }
+}
+int main()
+{
+    string text="abcabdabc";
+    string pattern="abc";
+
+    z_algorithm(text,pattern);
+
+    return 0;
+}
