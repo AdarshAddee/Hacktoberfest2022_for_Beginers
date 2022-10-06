@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// github username navdeepk037   https://github.com/navdeepk037
+
 int fact(int n)
 {
     int factorial=1;
@@ -10,8 +10,8 @@ int fact(int n)
 }
 int main(){
     int n;
-    cout<<"enter the number ";
-    cin>>n;
-    cout<<"the factorial of the number is "<<fact(n);
+    printf("enter the number ");
+    scanf("%d",&n);
+    printf("the factorial of the number is %d",fact(n));
     
 }
