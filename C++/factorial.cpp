@@ -15,8 +15,8 @@ public:
 void
 Factorial::calculateFactorial()
 {
-    cout << "Enter a number : " << endl;
-    cin >> num;
+    printf("Enter a number : \n" );
+    scanf("%d",&num);
 
     if (num == 0 || num == 1)
     {
@@ -34,7 +34,7 @@ Factorial::calculateFactorial()
 
 void Factorial::show()
 {
-    cout << "Factorial : " << factorial << endl;
+    printf("Factorial : %d\n", factorial);
 }
 
 int main()
