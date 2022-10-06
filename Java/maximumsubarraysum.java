@@ -1,3 +1,8 @@
+// Github username: ruchikayadav1408
+// Aim: This algorithm for finding  maximum subarray sum with optimized solution of this problem so that having best time complexity.
+// Date: 06|10|2022
+
+
 //Question : Print maximum subarray sum
 package Arrays;
 
