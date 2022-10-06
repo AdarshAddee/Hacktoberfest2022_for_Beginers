@@ -1,4 +1,0 @@
-# AdrshCode
-
-print(eval(input()))
-
