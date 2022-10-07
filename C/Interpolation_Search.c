@@ -1,3 +1,7 @@
+// Github username: tanmoy27112000
+// Aim:To search for element using interpolation Search
+// Date: 8th Oct 2022
+
 #include<stdio.h>
 int interplorationSearch(int a[],int element,int size);
 int main()
