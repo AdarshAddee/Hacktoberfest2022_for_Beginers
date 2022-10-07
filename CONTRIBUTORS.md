@@ -32,6 +32,7 @@
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Vinay Pathak | <a href="https://github.com/vinaypathak07">Vinay Pathak</a> | <a href="mailto:nbp.vinay@gmail.com">E-Mail</a> |
+| Vishesh Tiwari | <a href="https://github.com/vishesh-hue"> Vishesh Tiwari</a> | <a href="mailto:tvishesh593@gmail.com">E-mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Aakash Jha | <a href="https://github.com/sky-jha">Aakash Jha</a> | <a href="mailto:aakashkjha0500@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
