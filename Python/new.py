@@ -5,3 +5,10 @@ def pattern(n):
     print("\r")  
 n=5
 pattern(n)
+
+// Github username: kbhavre
+// Aim: Triangle pattern in Python 
+// Date: 08/10/2022
+
+// start coding
+
