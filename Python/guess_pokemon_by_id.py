@@ -1,5 +1,6 @@
-# Author: AmorimGabrielCE
-# Welcome! This game is so easy, i will give a number and you want to guess what's pokemon is. (First Generation Only!)
+# Github username: AmorimGabrielCE
+# Aim: This game is so easy, i will give a number and you want to guess what's pokemon is. (First Generation Only!)
+# Date:  08/10/2022 (DD:MM:YY)
 
 import random
 import requests
