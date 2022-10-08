@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <style>
+      .container {
+        max-width: 280px;
+        margin: 10vh auto 0 auto;
+        box-shadow: 0 0 45px 17px rgb(197, 196, 196);
+      }
+      #screen {
+        font-size: 25px;
+        text-align: right;
+        padding: 16px 8px;
+        height: 70px;
+      }
+      .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .button {
+        text-align: center;
+        font-weight: bolder;
+        cursor: pointer;
+        border: 0.5px solid rgb(216, 211, 211);
+        font-size: 25px;
+        line-height: 60px;
+      }
+      .operator ,.clear, .delete{
+        background: rgb(235, 228, 228);
+      }
+      .equal{
+        background: rgb(176, 226, 226);
+      }
+      
+    </style>
+
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <div id="screen"></div>
+        <div class="buttons">
+          <div class="button clear">C</div>
+          <div class="button operator">%</div>
+          <div class="button delete">DL</div>
+          <div class="button operator">/</div>
+          <div class="button no">7</div>
+          <div class="button no">8</div>
+          <div class="button no">9</div>
+          <div class="button operator">*</div>
+          <div class="button no">4</div>
+          <div class="button no">5</div>
+          <div class="button no">6</div>
+          <div class="button operator">-</div>
+          <div class="button no">1</div>
+          <div class="button no">2</div>
+          <div class="button no">3</div>
+          <div class="button operator">+</div>
+          <div class="button no">00</div>
+          <div class="button no">0</div>
+          <div class="button no"> . </div>
+          <div class="button equal">=</div>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+
+      let screen=document.getElementById('screen');
+      let buttons=Array.from(document.getElementsByClassName('button'));
+
+       buttons.map(button => {
+           button.addEventListener('click' , (e) =>{
+
+              switch(e.target.innerText){
+             case 'C':
+                 screen.innerText = '';
+                 break;
+
+              case 'DL':
+                  if(screen.innerText){
+                      screen.innerText = screen.innerText.slice(0,-1);
+                  }
+                  break;
+
+              case '=' :
+                  try{
+                      screen.innerText = eval(screen.innerText);
+                  }catch{
+                      screen.innerText = 'ERROR!!' ;
+                  }
+                  break;
+
+              default:
+                  screen.innerText += e.target.innerText;
+         }
+
+           });
+
+       });
+    </script>
+
+  </body>
+</html>
