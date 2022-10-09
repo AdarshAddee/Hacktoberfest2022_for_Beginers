@@ -1,0 +1,84 @@
+<!-- Github username: @adityasp1
+Aim:Adding animation and keyframes using embedded css
+ Date: 09th October, 2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animation</title>
+</head>
+<STYle>
+    .container {
+        background-color: greenyellow;
+    }
+
+    .box {
+
+        width: 350px;
+        height: 350px;
+        background-color: green;
+        position: relative;
+        animation-name: adi;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: alternate;
+        animation-timing-function: ease-in;
+
+        /* These properties could be set up using this shorthand */
+        /* animation: animation name, duration, timing-function, delay, iteration-count, fill mode; */
+    }
+
+    @keyframes Aditya {
+        from {
+            width: 200px
+        }
+
+        to {
+            width: 1200px;
+
+        }
+    }
+
+    @keyframes adi{
+        0%{
+         top: 0px;
+         left: 0px;
+        }
+        20%{
+      top: 250px;
+      left: 0px;
+        }
+        45%{
+            top: 250px;
+            left: 250px;
+        
+ }
+        70%{
+            top: 0px;
+            left: 250px;
+
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+        }
+    }
+</STYle>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <H1>This is a BOX FOR HACKTOBERFEST </H1>
+            <a href="https://hacktoberfest.com/" target="_blank">HACKTOBERFEST 2022</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, mollitia? Voluptates facilis qui
+                reiciendis recusandae nihil numquam, aspernatur velit iste exercitationem inventore modi minima expedita
+                quasi dignissimos, </p>
+        </div>
+    </div>
+</body>
+
+</html>
