@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  position: relative;
+  background: darkkhaki;
+  /*padding: 0.5rem 1rem;*/
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden; 
+  font-weight: bolder;
+  
+}
+
+.row{
+  margin: 8px 0;
+  /*text-align: abso*/
+}
+
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0px 1px;
+    padding: 10px 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#onlyforclear{
+text-align: center;
+width: 66px;
+padding: 20px 0px;
+margin: 0 3px;
+border: 2px solid black;
+border-radius: 9px;
+cursor: pointer;
+font-weight: bolder;
+color: #0c0c86;
+font-size: 15px;
+}
+
+.button span {
+  position: relative;
+}
+
+.button:before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, antiquewhite, transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+
+}
+
+.button:hover:before {
+  --size: 200px;
+}
