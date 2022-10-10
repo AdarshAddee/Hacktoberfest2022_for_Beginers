@@ -1,0 +1,84 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Graph{
+    public:
+            int v,e;
+            Graph()
+            {
+                v=0;
+                e=0;
+            }
+            Graph(int v,int e)
+            {
+                v=v;
+                e=e;
+            }
+            bool cycles(vector<int> adj[] , vector<int> &vis)
+            {
+                queue<pair<int,int>> q;
+                q.push({3,-1});
+                vis[1]=1;
+
+                while(!q.empty())
+                {
+                    auto node=q.front().first;
+                    auto prev=q.front().second;
+                    q.pop();
+                    
+                    for(auto it:adj[node])
+                    {
+                        if(!vis[it])
+                        {
+                            vis[it]=1;
+                            q.push({it,node});
+                        }
+                        else
+                        {
+                            if(it!=prev)
+                            return true;
+                        }
+                        
+                    }
+                }
+                return false;
+
+            }
+
+
+
+};
+
+int main()
+{
+    int n,m;
+    cin>>n>>m;
+    vector<int> adj[n+1];
+    for(int i=0;i<m;i++)
+    {
+        int u,v;
+        cout<<"Enter "<<i<<"th u and v"<<endl;
+        cin>>u>>v;
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
+
+    for(int i=1;i<=n;i++)
+    {
+        cout<<i;
+        for(auto x:adj[i])
+        cout<<"->"<<x;
+        cout<<endl;
+    }
+
+    vector<int> vis(n+1,0);
+
+    Graph g1(n,m);
+    if(g1.cycles(adj , vis))
+    cout<<"True";
+    else
+    {
+        cout<<"False";
+    }
+    
+}
