@@ -1,3 +1,4 @@
+import random
 Sentence_starter = ['About 100 years ago', ' In the 20 BC', 'Once upon a time']
 character = [' there lived a king.',' there was a man named Jack.',
              ' there lived a farmer.']
