@@ -13,7 +13,7 @@ Contribute to start your journey with hacktoberfest and python. Happy Hacking�
 - 💻 Python
 - 💻 Java
 - 💻 Javascript
-
+- 💻 Golang
 # 🛡Rules to Contribute
 - ⚓Star this repo to get latest updates.
 - ⚓Give your file a proper extension according to language. Ex. .py, .java, .js. html etc.
