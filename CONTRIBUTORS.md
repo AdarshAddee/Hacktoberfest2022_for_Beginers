@@ -66,26 +66,7 @@
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Chetan Singh | <a href="https://github.com/chetansingh-2">Chetan Singh</a> | <a href="mailto:kunwarchetansingh000@gmail.com">E-Mail</a> |
 
 <br>
 <h1>
