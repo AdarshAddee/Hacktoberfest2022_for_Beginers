@@ -1,3 +1,7 @@
+// username : amankushwaha008
+// to add rain water trapping problem solution to your repository
+//date : 11 Oct 2022
+
 // Trapping Rain Water
 
 /*
