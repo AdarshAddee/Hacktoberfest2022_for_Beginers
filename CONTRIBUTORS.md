@@ -32,7 +32,6 @@
 | Anurag Vats | <a href="https://github.com/AnuragVats007">Anurag Vats</a> | <a href="mailto:lit2020007@iiitl.ac.in">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Vinay Pathak | <a href="https://github.com/vinaypathak07">Vinay Pathak</a> | <a href="mailto:nbp.vinay@gmail.com">E-Mail</a> |
-|Muskan verma | <a href="https://github.com/MuskanVerma11">Muskan Verma</a> | <a href="mailto:muskanvermabsp@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Aakash Jha | <a href="https://github.com/sky-jha">Aakash Jha</a> | <a href="mailto:aakashkjha0500@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
@@ -66,7 +65,7 @@
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
-
+|Muskan verma | <a href="https://github.com/MuskanVerma11">Muskan Verma</a> | <a href="mailto:muskanvermabsp@gmail.com">E-Mail</a> |
 
 
 
