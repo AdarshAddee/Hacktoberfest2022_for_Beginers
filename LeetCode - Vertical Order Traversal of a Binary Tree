@@ -1,0 +1,28 @@
+void help(TreeNode *root,int v_level,int h_level,map<int,map<int,vector<int>>>& mp)
+    {
+        if(root==NULL)return;
+        mp[v_level][h_level].push_back(root->val);
+        help(root->left,v_level-1,h_level+1,mp);
+        help(root->right,v_level+1,h_level+1,mp);
+    }
+    vector<vector<int>> verticalTraversal(TreeNode* root) {
+        map<int,map<int,vector<int>>> mp;  //ordered map 
+        help(root,0,0,mp);
+        vector<vector<int>> ans;
+        for(auto i:mp)  // Traversing vertical level
+        {
+            vector<int> temp;
+            for(auto k:i.second) // In each vertical level traversing horizontal level
+            {
+                vector<int> temp2;
+                for(int j=0;j<k.second.size();j++)  // Traversing array of each horizontal level in a particular vertical level 
+                {
+                    temp2.push_back(k.second[j]);
+                }
+                sort(temp2.begin(),temp2.end()); // Sorting elements of a horizontal level in a particular vertical level
+                temp.insert(temp.end(),temp2.begin(),temp2.end()); //Apending each horizontal level array to vertical level array
+            }
+            ans.push_back(temp); // Inserting vertical subarray to answer array
+        }
+        return ans;
+    }
