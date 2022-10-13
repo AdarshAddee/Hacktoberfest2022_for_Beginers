@@ -21,7 +21,7 @@ class TicTacToe:
         p = 0
         print("\n\n")
         for i in self.board:
-            print(f"  {i[0]} | {i[1]} | {i[2]}  ")
+            print("  {i[0]} | {i[1]} | {i[2]}  ")
             if p<2:
                 print("-------------")
             p = p + 1
