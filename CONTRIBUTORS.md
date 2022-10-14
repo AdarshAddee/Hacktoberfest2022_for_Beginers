@@ -12,6 +12,7 @@
   
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
+|Saurabh Srivastava | <a href="https://github.com/Saurabh-9">Adarsh Addee</a> | <a href="mailto:21bcs10243@cuchd.com">E-Mail</a> |
 | Adarsh Addee | <a href="https://github.com/AdarshAddee">Adarsh Addee</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
 | Sarthak Roy | <a href="https://github.com/sarthakroy2002">Sarthak Roy</a> | <a href="mailto:sarthakroy2002@gmail.com">E-Mail</a> |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
