@@ -1,0 +1,26 @@
+class Solution {
+public:
+    // recursive
+    int solve(string s, int i, vector<int>& memo) {
+        // base condn
+        if(i == s.size()) return 1;
+        if(memo[i] != -1) return memo[i];
+        
+        int count = 0;
+        if(s[i] != '0') {
+            // for single letters
+            count += solve(s, i+1, memo);
+        }
+        // for 2 number combo or no 10 to 26
+        if(i+1 < s.size() && (s[i] == '1' || (s[i] == '2' && s[i+1] <= '6')))
+            count += solve(s, i+2, memo);
+        
+        return memo[i] = count;
+    }
+    
+    int numDecodings(string s) {
+        vector<int> memo(s.size()+1,-1);
+        int ans = solve(s, 0, memo);
+        return ans;
+    }
+};
