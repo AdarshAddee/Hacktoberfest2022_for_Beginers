@@ -1,3 +1,6 @@
+// Github username: aditansh
+// cpp program to check for balanced parenthesis
+
 #include <iostream>
 #include <stack>
 using namespace std;
