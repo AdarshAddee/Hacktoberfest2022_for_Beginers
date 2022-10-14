@@ -1,10 +1,7 @@
-import random                #dhruv2003
-from words import word_list
+Player_1 = input("Player 1 please enter your name: ")
+Player_2 = input("Player 2 please enter your name: ")
 
-
-def get_word():
-    word = random.choice(word_list)
-    return word.upper()
+word = input(Player_1 + ",please choose a word for " + Player_2 + " to guess: ")
 
 
 def play(word):
@@ -26,6 +23,8 @@ def play(word):
                 print(guess, "is not in the word.")
                 tries -= 1
                 guessed_letters.append(guess)
+                if tries == 1:
+                    print("You have one more guess left! be careful!")
             else:
                 print("Good job,", guess, "is in the word!")
                 guessed_letters.append(guess)
@@ -131,14 +130,6 @@ def display_hangman(tries):
     ]
     return stages[tries]
 
+play(word)
 
-def main():
-    word = get_word()
-    play(word)
-    while input("Play Again? (Y/N) ").upper() == "Y":
-        word = get_word()
-        play(word)
-
-
-if __name__ == "__main__":
-    main()
+    
