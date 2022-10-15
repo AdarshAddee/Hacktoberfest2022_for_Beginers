@@ -3,8 +3,8 @@
 //Plaindrome means when a Number or a string when reversed
 //looks same and pronounced same as it was before reversing
 // Examaple:
-//35653 when reversed gives same
-//MADAM when reversed gives same
+//35653 when reversed gives same.
+//MADAM when reversed gives same.
 //Ana when reversed gives same(ignoring Lower and UPPER case)
 
 import 'dart:io';
