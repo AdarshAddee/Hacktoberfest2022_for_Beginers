@@ -42,6 +42,7 @@
 | Aritroo Chowdhury | <a href="https://github.com/aritroo">Aritroo Chowdhury</a> | <a href="mailto:aritroo123chowdhury52@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Kartikey Singh | <a href="https://github.com/kartik-ey1">Kartikey Singh</a> | <a href="mailto:kartikeysingh896@gmail.com">E-Mail</a> |
+| Himanshu M | <a href="https://github.com/himan17">Himanshu M</a> | <a href="mailto:himanshmishr@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Pradeep Khatri | <a href="https://github.com/PradeepKhatri">Pradeep Khatri</a> | <a href="mailto:pradeepkhatri121@gmail.com">E-Mail</a> |
 | Apurva Dubey | <a href="https://github.com/umbridge">umbridge</a> | <a href="mailto:apurva925dubey@gmail.com">E-Mail</a> |
