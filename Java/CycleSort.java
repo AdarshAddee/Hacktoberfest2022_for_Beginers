@@ -1,4 +1,3 @@
-package com.topics.algorithms.sortingAlgorithms;
 
 import java.util.Arrays;
 
