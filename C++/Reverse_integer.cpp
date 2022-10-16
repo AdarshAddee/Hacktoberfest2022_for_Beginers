@@ -12,7 +12,7 @@ using namespace std;
         }
         return reverse; }
 int main(){
-  int x=2486;
+  int x=2487;
   cout<<"Reverse no : "<<reverse(x);
   return 0; }
 
