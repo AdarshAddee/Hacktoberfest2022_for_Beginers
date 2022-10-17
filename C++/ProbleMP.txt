@@ -1,0 +1,34 @@
+Write a program to count the number of Setbit (1s)  in the binary representation of T  integers.
+
+INPUT 
+FIRST LINE WILL BE  NO OF TESTCASE REPRESENTS BY LET SAY = T
+FURTHER NEXT LINE WILL TAKE  T  INTEGERS 
+OUTPUT WILL BE NO OF SETBITS PRESENT  IN EACH INTEGERS  BINARY REPRESENTATION
+
+TESTCASES  WOULDBE  LIKE
+INPUT :
+3
+7
+13
+6
+OUTPUT
+3
+3
+2
+
+
+T : NO OF TESTCASES
+
+EXPLANATION
+
+Input : n = 7
+Output : 3
+Binary representation of 7 is 111 and has 3 set bits
+
+Input : n = 13
+Output : 3
+Binary representation of 13 is 1101 and has 3 set bits
+
+Input : n = 6
+Output : 2
+Binary representation of 6 is 111 and has 3 set bits
