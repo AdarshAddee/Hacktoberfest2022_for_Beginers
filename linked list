@@ -1,0 +1,219 @@
+#include<iostream>
+using namespace std;
+class node
+{
+public:
+int data;
+ node *next;
+ node()
+ {
+ data=0;
+ next=NULL;
+ }
+};
+class linkedlist
+{
+node *head;
+node *q,*r,*p,*temp;
+public:
+linkedlist();
+void count();
+void insertatbeg(int);
+void insertatend(int);
+void deleteatbeg();
+void deleteatend();
+void deleteat();
+void display();
+};
+linkedlist::linkedlist()
+{
+head=NULL;
+}
+void linkedlist::count()
+{
+ p=head;
+
+	int count=0;
+
+	while(p!=NULL)
+	{
+		p=p->next;
+		count++;
+	}
+	cout<<"count="<<count<<endl;
+}
+void linkedlist::insertatbeg(int n)
+{
+
+temp=new node;
+
+	temp->data=n;
+	temp->next=head;
+	head=temp;
+}
+void linkedlist::insertatend(int n)
+{
+//node *q,*r;
+	if(head==NULL)
+	{
+		q=new node;
+		q->data=n;
+		q->next=NULL;
+		head=q;
+	}
+	else 
+	{
+		r=head;
+		while(r->next!=NULL)
+		{
+			r=r->next;
+		}
+		q=new node;
+		q->data=n;
+		q->next=NULL;
+		r->next=q;
+	}
+}
+void linkedlist::deleteatbeg()
+{
+	if(head==NULL)
+	cout<<"No element to delete"<<endl;
+	else 
+	{
+		node *p=head;
+		head=p->next;
+		delete p;
+	}
+}
+void linkedlist::deleteatend()
+{
+   int value;
+//	struct node* temp,*last;
+	if(head==NULL)
+	{
+		cout<<"data is not present"<<endl;
+	}
+	else
+	{
+	q=head;
+	if(q->next==NULL)
+	{
+	        head=NULL;
+	}
+	else
+	{
+	while(q->next!=NULL)
+		{
+			temp=q;
+			q=q->next;
+		}
+		
+		temp->next=NULL;
+	}
+	delete q;
+		
+	}
+}
+void linkedlist::deleteat()
+{
+int loc;
+cout<<"Enter location for delete"<<endl;
+	cin>>loc;
+	 //node *p,*r;
+	p=head;
+	int i=1;
+	if(loc==1)
+	{
+		p=head;
+		head=p->next;
+		delete p;
+	}
+	else if(loc>1)
+	{
+		while(i<loc)
+		{
+			r=p;
+			p=p->next;
+			i++;
+			if(p==NULL)
+			{
+				cout<<"less element than specified"<<endl;
+				return ;
+			}
+		}
+		r->next=p->next;
+		delete p;
+	}
+	else 
+	{
+		cout<<"please enter correct position"<<endl;
+	}
+}
+void linkedlist::display()
+{
+if(head==NULL)
+{
+cout<<"Empty list"<<endl;
+}
+
+else
+{
+temp=head;
+while(temp!=NULL)
+		{
+		cout<<"element"<<temp->data<<endl;
+			temp=temp->next;
+		}
+}
+}
+int main()
+{
+int choice,n;
+linkedlist l;
+while(1)
+{
+cout<<"Enter \n1 for insert at beg\n2 for insert at end \n3 for delete at beg\n4 for delete at end\n5 for delete at\n6 for display\n7 for count\n8 for end"<<endl;
+cout<<"Enter choice"<<endl;
+cin>>choice;
+if(choice>7)
+{
+cout<<"End";
+break;
+}
+else
+{
+switch(choice)
+{
+case 1:
+cout<<"Enter which data u want to add"<<endl;
+cin>>n;
+l.insertatbeg(n);
+break;
+case 2:
+cout<<"Enter which data u want to add"<<endl;
+cin>>n;
+l.insertatend(n);
+break;
+case 3:
+l.deleteatbeg();
+break;
+case 4:
+l.deleteatend();
+l.display();
+break;
+case 5:
+l.deleteat();
+break;
+case 6:
+l.display();
+break;
+case 7:
+l.count();
+break;
+default:
+cout<<"Invalid"<<endl;
+break;
+}
+}
+}
+}
