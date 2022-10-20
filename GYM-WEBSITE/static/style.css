@@ -1,0 +1,46 @@
+*{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+nav{
+    background-color: aqua;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    margin: 20px;
+}
+h1 h2{
+    text-align: center;
+}
+.container{
+    margin: 20px auto;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+}
+input   {
+  display: block;
+  padding: 5px;
+  margin: 15px auto;
+  width: 60%;
+  outline: none;
+  border: 2px solid goldenrod;
+  border-radius: 9px ;
+
+}
+textarea{
+    display: block;
+    margin: 20px auto;
+    border: 2px solid red;
+
+}
+.btn{
+    margin: 20px auto;
+    padding: 5px;
+}
