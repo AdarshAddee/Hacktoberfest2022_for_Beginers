@@ -1,9 +1,9 @@
 #include <iostream>
   using namespace std;
 
-int binarySearch(int arr[], int left, int right, int x) {
+int binarySearch(int *arr, int left, int right, int x) {
   while (left <= right) {
-    int mid = left + (right - left) / 2;
+    int mid = left + right / 2;
 
     if (arr[mid] == x) {
       return mid;
@@ -18,14 +18,35 @@ int binarySearch(int arr[], int left, int right, int x) {
 }
 
 int main() {
-  int myarr[10];
+  int size,temp=0;
+  cout<<"enter size"<<endl;
+  cin>>size;
+  int *myarr=new int[size];
   int num;
   int output;
 
-  cout << "Please enter 10 elements ASCENDING order" << endl;
-  for (int i = 0; i < 10; i++) {
+  cout << "Please enter elements " << endl;
+  for (int i = 0; i < size; i++) {
     cin >> myarr[i];
   }
+  cout<<"sorting the array:"<<endl;
+  for(int i=0;i<size;i++)
+  {
+    for(int j=i+1;j<size;j++)
+    {
+      if(myarr[i]>myarr[j])
+      {
+        temp=myarr[i];
+        myarr[i]=myarr[j];
+        myarr[j]=temp;
+      }
+    }
+  }
+  cout<<"SORTED ARRAY"<<endl;
+   for (int i = 0; i < size; i++) {
+    cout<<myarr[i]<<" ";
+  }
+  cout<<endl;
   cout << "Please enter an element to search" << endl;
   cin >> num;
 
