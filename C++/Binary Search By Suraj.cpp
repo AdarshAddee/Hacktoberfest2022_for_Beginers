@@ -4,16 +4,20 @@
 int binarySearch(int arr[], int left, int right, int x) {
   while (left <= right) {
     int mid = left + (right - left) / 2;
-
+    // Found in this index : exit (return)
     if (arr[mid] == x) {
       return mid;
-    } else if (arr[mid] < x) {
+    } 
+    // searching index is higher than current check
+    else if (arr[mid] < x) {
       left = mid + 1;
-    } else {
+    } 
+    // searching index is lesser than current check
+    else {
       right = mid - 1;
     }
   }
-
+  // left index > right mean not found in arr[]
   return -1;
 }
 
