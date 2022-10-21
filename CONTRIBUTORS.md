@@ -38,6 +38,7 @@
 | Atinder Kumar | <a href="https://github.com/atinder11">Atinder Kumar</a> | <a href="mailto:atinderkumar1111@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Shobhit Tiwari | <a href="https://github.com/shobhitt8">Shobhit Tiwari</a> | <a href="mailto:shobhitt0812@gmail.com">E-Mail</a> |
+| Grant Rad | <a href="https://github.com/shobhitt8">Grant Rad</a> | <a href="mailto:emergencebooking@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
 | Aritroo Chowdhury | <a href="https://github.com/aritroo">Aritroo Chowdhury</a> | <a href="mailto:aritroo123chowdhury52@gmail.com">E-Mail</a> |
 | Daksh Kesarwani | <a href="https://github.com/InnocentDaksh63">Daksh kesaarwani</a> | <a href="mailto:dakshkesarwanijasra@gmail.com">E-Mail</a> |
