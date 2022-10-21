@@ -2,11 +2,9 @@ zero = int(False)
 one = int(True)
 hundred = int(f"{one}{zero}{zero}")
 
-
-def shownum(i):
-    if i <= hundred:
+def shownum():
+    for i in range (one, hundred+one):
         print(i)
-        shownum(i + one)
 
 
-shownum(one)
+shownum()
