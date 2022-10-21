@@ -2,7 +2,6 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-
 int celsi(long a){
     long t;
     t=(a - 32.0) * 5.0 / 9.0;
