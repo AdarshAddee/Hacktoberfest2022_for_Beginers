@@ -38,7 +38,7 @@ int N=1e6 +1;
 vvi adj(N);
 vi vis(N,0);
 
-vvi cc;
+vvi cc; // group of connecting component
 vi current_comp;
 
 void dfs(int i){
@@ -51,7 +51,8 @@ void dfs(int i){
     }
 }
 
-int main(){
+int main()
+    // speed up execution time
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -61,6 +62,7 @@ int main(){
         int x,y;
         cin>>x>>y;
         adj[x].pb(y),adj[y].pb(x);
+        // undirected graph
     }
     int c=0;
     for(int i=1;i<=n;i++){

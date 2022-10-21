@@ -64,3 +64,8 @@ b = Button(root,text="=", font="lucida 20 bold", width=13, height=1,activeforegr
 b.place(x=23,y=350)
 b.bind("<Button-1>", click)
 root.mainloop()
+
+# avoid issues 
+# - push operators +-*\ in connecting order : ++--- may works but the rest not.
+# - press 0 and press others number : 002, 05, 064 : not work
+# - 10.x3 = 1000
