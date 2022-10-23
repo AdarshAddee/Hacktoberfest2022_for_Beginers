@@ -32,6 +32,7 @@ Factorial::calculateFactorial()
     }
 }
 
+
 void Factorial::show()
 {
     cout << "Factorial : " << factorial << endl;
