@@ -14,6 +14,7 @@
 | ------|----------|---------- |
 | Adarsh Addee | <a href="https://github.com/AdarshAddee">Adarsh Addee</a> | <a href="mailto:example@gmail.com">E-Mail</a> |
 | Sarthak Roy | <a href="https://github.com/sarthakroy2002">Sarthak Roy</a> | <a href="mailto:sarthakroy2002@gmail.com">E-Mail</a> |
+| Swarupananda Chattopadhyay | <a href = "https://github.com/Swarup-2003">Swarupananda Chattopadhyay</a> | <a href ="mailto:chattopadhyayswarupananda@gmail.com">E-Mail</a> |
 | Suraj Bhandarkar S | <a href="https://github.com/Suraj-Bhandarkar-S">Adarsh Addee</a> | <a href="mailto:suraj.bhandarkar13@gmail.com">E-Mail</a> |
 | Khushi Marothi | <a href="https://github.com/khushimarothi">Khushi Marothi</a> | <a href="mailto:khushimarothi2002@gmail.com">E-Mail</a> |
 | Aditya Giri | <a href="https://github.com/aditya-464">Aditya Giri</a> | <a href="mailto:reetbharti873@gmail.com">E-Mail</a> |
