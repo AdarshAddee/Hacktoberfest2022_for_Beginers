@@ -1,3 +1,6 @@
+
+// Github:Spider-50140 
+
 // C++ program for optimal allocation of pages
 #include <bits/stdc++.h>
 using namespace std;
