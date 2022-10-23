@@ -1,3 +1,8 @@
+// Github username: ishapaw
+// Aim: My repo's aim is to provide the code for how to remove nth node from the end of Linked List
+// Date: 23 October 2022
+
+// start coding
 #include<iostream>
 using namespace std;
 
