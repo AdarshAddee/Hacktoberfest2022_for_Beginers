@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abhaya Libre', serif;
+}
+ body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ac8e60;
+ }
+
+.overlay {
+    width: 1200px;
+    max-width: 100%;
+    min-height: 400px;
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+.hero{
+    width: 1200px;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    background: url('../assets/pexels-chevanon-photography-1108099.jpg');
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.hero p {
+    color: #bc592d;
+    text-align: center;
+    padding: 15%;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.btn{
+    text-align: center;
+    border: none;
+    padding: 20px; 
+}
+
+button{
+    padding: 1% 3%;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: #bc592d;
+    border: dotted 1.5px;
+    border-radius: 18px;
+}
+.contact{
+    width: 90%;
+    margin: auto;
+}
+.contact p{
+    color: #2a251f;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.socials-info{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+.socials{
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
