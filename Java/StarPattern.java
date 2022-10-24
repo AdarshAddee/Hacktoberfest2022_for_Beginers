@@ -1,3 +1,11 @@
+
+// Github username: Sneha2319
+// Aim: Starpattern in java
+// Date: 24-10-2022
+
+
+
+
 public class Main
 {
   public static void main(String[] args){
