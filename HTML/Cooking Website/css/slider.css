@@ -1,0 +1,117 @@
+#simple_gallery{ 
+width:972px; 
+margin: 0 auto;
+height:479px; 
+position:relative; 
+overflow:hidden;
+background: url(../images/gallery_bg.png) 0 bottom no-repeat;
+padding-bottom:3px;}
+.gallery_bg{
+width:949px; 
+height:377px; 
+position:relative; 
+overflow:hidden;
+margin-left:11px;}
+.simple_gallery{ 
+width:949px; 
+height:377px; 
+position:relative; 
+overflow:hidden;
+background: url(../images/bg-li-transparent.png) 0 0 repeat;
+} 
+.items {display:none;}
+.pag {
+	width:100%;
+	position:relative;
+	margin-left:134px;
+	height:62px;
+	overflow:hidden;}
+.img-pags {
+	margin-left:33px;
+	z-index:1;
+	display:block;
+	width:637px;}
+.img-pags ul {margin:0;}
+.img-pags li {
+	height:62px; 
+	width:91px; 
+	overflow:hidden;
+	border-left:1px solid #181818;
+	float:left;
+	}
+.img-pags li:first-child{border:none;}
+.img-pags li a {
+	position:relative;
+	display:block;
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+}
+.img-pags li a img{ 
+opacity:.6;
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+}
+.img-pags li a span{ 
+display:block; 
+background:#000;}
+.img-pags li.active a,
+.img-pags li a:hover{}
+.img-pags li.active a img,
+.img-pags li a:hover img{opacity:1;}
+
+#pro_simple_gallery .pro_play,
+#pro_simple_gallery .pro_numStatus{ box-shadow:none;}
+
+.banner{ 
+position:absolute;  
+width:310px;
+height:261px; 
+left:638px;
+top:58px;
+background:url(../images/bg-bunner.png) 0 0 no-repeat; 
+text-align:center;}
+.div-banner{padding:75px 82px 58px 33px;}
+.banner span{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:24px;
+	color:#fff;
+	text-transform:uppercase;}
+.banner p{
+	font-size:12px;
+	line-height:18px;
+	color:#a5a5a5;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:15px 0 20px 0;}
+	.banner a{
+		font-size:12px;
+		line-height:15px;
+		text-transform:uppercase;
+		color:#fff;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+		.banner a:hover{color:#5da813;}
+.prev{
+	display:block;
+	width:31px;
+	height:62px;
+	position:absolute;
+	bottom:0;
+	left:2px;
+	background: url(../images/prev.png) 0 0 no-repeat;
+	z-index:1000;
+	}
+	.prev:hover{background-position:right 0;}
+.next{
+	display:block;
+	width:31px;
+	height:62px;
+	position:absolute;
+	bottom:0;
+	right:271px;
+	background: url(../images/next.png) right 0 no-repeat;
+	z-index:1000;
+	}
+	.next:hover{background-position:0 0;}
+
