@@ -1,3 +1,7 @@
+// Github username: shlokjjw
+// Aim: Check the soduku is valid or not
+// Date: 25/10/22
+
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
