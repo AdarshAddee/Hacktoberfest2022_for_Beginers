@@ -1,6 +1,12 @@
-# AdrshCode
+zero = int(False)
+one = int(True)
+hundred = int(f"{one}{zero}{zero}")
 
-for i in range(1, ord("e")):
-    print(i)
-    
-    
+
+def shownum(i):
+    if i <= hundred:
+        print(i)
+        shownum(i + one)
+
+
+shownum(one)
