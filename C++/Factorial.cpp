@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 class Factorial
 {
 private:
