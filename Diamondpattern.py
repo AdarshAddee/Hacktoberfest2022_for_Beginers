@@ -18,3 +18,7 @@ for i in range(rows, -1, -1):
     for j in range(0, i + 1):
         print("* ", end="")
     print("")
+    
+// Github username: harshbam18
+// Aim: the aim was to get diamond pattern of stars as output
+// Date: 25/10/12
