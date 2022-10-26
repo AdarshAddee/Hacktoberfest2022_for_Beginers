@@ -1,3 +1,10 @@
+/* 
+Github username: SonamMalik17
+Aim: To create a diamond pattern program in C
+Date: 27 October, 2022
+*/
+
+//Code starts here
 #include<stdio.h>
 int main()
 {
