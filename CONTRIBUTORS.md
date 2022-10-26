@@ -65,7 +65,7 @@
 | Tharindu Sooriyaarchchi | <a href="https://github.com/TharinduDilshan>Tharindu Sooriyaarchchi</a> | <a href="mailto:tdilshan2010@gmail.com">E-Mail</a> |
 | Samriddh Prasad | <a href="https://github.com/Samriddh2703">Samriddh Prasad</a> | <a href="mailto:samriddh2703@gmail.com">E-Mail</a> |
 | Edgar Gonzalez | <a href="https://github.com/Edgarzerocool">Edgar Gonzalez</a> | <a href="mailto:edgar_gonzalezja@hotmail.com">E-Mail</a> |
-
+| Sonam Malik | <a href="https://github.com/SonamMalik17">Sonam Malik</a> | <a href="maliksonam0301@gmail.com">E-Mail</a> |
 
 
 
