@@ -1,3 +1,6 @@
+// Github username: Khushi-Shukla
+// Aim: encoding and decoding a string by building a huffman tree
+// Date: 27/10/22
 //huffman code
 #include<iostream>
 #include<string>
