@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style>
+		
+		.animation{
+			
+			height: 100vh;
+			color: white;
+			background-image: url("https://i.pinimg.com/originals/de/7a/1e/de7a1e565b8cc3abc032d20c3ba546f6.jpg");
+			/*https://motionarray.imgix.net/preview-141331-fd5eeYmi30-high_0004.jpg?w=660&q=60&fit=max&auto=format*/
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			overflow: hidden;
+			}
+
+		.menu{
+  				display: block;
+  				width: 30px;
+				margin:40px auto;
+				cursor: pointer;
+			}
+
+		.sidebar{
+				width: 70px;
+				height: 100vh;
+				background:linear-gradient(#00545d,#000729);
+				position: absolute;
+				right:0;
+				top: 0;
+			}
+		h1{
+				font-size: 80px;
+				margin:10px 0 30px;
+				line-height: 80px;
+			}
+		.content{
+				color:#fbfcfd;
+				position: absolute;
+				top: 50%;
+				left: 8%;
+				transform: translateY(-50%);
+				z-index: 2;
+			}
+		.navbar {
+				width: 85%;
+				height: 15%;
+				margin:10px 80%;
+			}
+		button{
+				background:transparent;
+				padding: 10px 25px;
+				border-radius: 20px;
+				border: 1px solid #fff;
+				color:#fbfcfd;
+				outline: none;
+				cursor: pointer;
+				
+			}
+			.social-links img{
+				width:35px;
+				height: 35px;
+				margin:30px auto 0;
+				cursor: pointer;
+				padding: 5px;
+			}
+			.bubbles img{
+				width:60px;
+				animation:bubble 7s linear infinite;
+			}
+
+			.bubbles{
+				width: 90%;
+				display: flex;
+				bottom: -70px;
+				position: absolute;
+				align-items: center;
+				justify-content: space-around;
+			}
+			@keyframes bubble{
+				0%{
+					transform: translateY(0);
+					opacity: 0;
+				}
+				50%{
+					
+					opacity: 1;
+				}
+				70%{
+					
+					opacity: 1;
+				}
+				100%{
+					transform: translateY(-80vh);
+					opacity: 0;
+				}
+			}
+				.bubbles img:nth-child(1){
+					animation-delay: 3s;
+					width: 65px;
+				}
+				.bubbles img:nth-child(2){
+					animation-delay:7s;
+					width: 59px;
+				}
+				.bubbles img:nth-child(3){
+					animation-delay: 3.8s;
+					width: 57px;
+				}
+				.bubbles img:nth-child(4){
+					animation-delay:6s;
+					width: 70px;
+				}
+				.bubbles img:nth-child(5){
+					animation-delay: 3s;
+					width: 39px;
+				}
+				.bubbles img:nth-child(6){
+					animation-delay: 6s;
+					width: 62px;
+				}
+				.bubbles img:nth-child(7){
+					animation-delay:4s;
+					width: 56px;
+				}
+			.bu
+
+	</style>
+</head>
+<body>
+
+<div class="animation">
+
+	<div class="navbar">
+		<button type="button">Sign Up</button>
+	</div>	
+	<div class="content">
+		<small>Welcome To Our </small>
+		<h1>Creative <br>Animation</h1>
+	</div>
+
+		<div class="sidebar">
+			<div class="menu">&#9776;
+			</div>
+	
+		    <div class="social-links">
+
+				<a href="https://www.facebook.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/174/174848.svg"></a>
+
+				<a href="https://www.linkedin.com/in/yogeshwari-harode-2bb48b1a7/"><img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"></a>
+
+				<a href="https://twitter.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/174/174876.svg"></a>
+
+				<a href="https://www.instagram.com/"><img src="https://www.flaticon.com/svg/static/icons/svg/174/174855.svg"></a>
+
+				<a href="https://github.com/yogeshwari-harode"><img src="https://www.flaticon.com/svg/static/icons/svg/270/270798.svg"></a>
+		    </div>
+
+		</div>
+
+		<div class="bubbles">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+			<img src="https://www.nicepng.com/png/full/5-57046_clear-bubbles-png-bubble-transparent.png">
+
+		</div>
+
+
+
+
+</div>
+</body>
+</html>
