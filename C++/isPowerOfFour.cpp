@@ -1,5 +1,6 @@
 
 // Author: DIVYANSH RAI
+//Aim : To help others with shortest possible code
 // Date Modified: 27/10/2022
 
 #include <bits/stdc++.h>
