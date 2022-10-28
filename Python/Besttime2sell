@@ -1,0 +1,13 @@
+def stocks(arr):
+        stack=0
+        profit=0
+        for i in arr[::-1]:
+
+            if i>stack:
+                stack=i
+            else:
+                profit=max(profit,stack-i)
+                
+                
+        return profit
+
