@@ -1,45 +1,21 @@
 #include <iostream>
 using namespace std;
 
-class Factorial
-{
-private:
-    int num;
-    int factorial = 1;
+int main() {
+    int n;
+    long factorial = 1.0;
 
-public:
-    void calculateFactorial();
-    void show();
-};
+    cout << "Enter a positive integer: ";
+    cin >> n;
 
-void
-Factorial::calculateFactorial()
-{
-    cout << "Enter a number : " << endl;
-    cin >> num;
-
-    if (num == 0 || num == 1)
-    {
-        factorial = 1;
-    }
-    else
-    {
-        while (num > 1)
-        {
-            factorial = factorial * num;
-            num--;
+    if (n < 0)
+        cout << "Error! Factorial of a negative number doesn't exist.";
+    else {
+        for(int i = 1; i <= n; ++i) {
+            factorial *= i;
         }
+        cout << "Factorial of " << n << " = " << factorial;    
     }
-}
 
-void Factorial::show()
-{
-    cout << "Factorial : " << factorial << endl;
-}
-
-int main()
-{
-    Factorial factorial;
-    factorial.calculateFactorial();
-    factorial.show();
+    return 0;
 }
