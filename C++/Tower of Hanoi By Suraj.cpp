@@ -1,27 +1,29 @@
-    #include<iostream>
-    #include<conio.h>
-    using namespace std;
-    void TOH(int d, char t1, char t2, char t3)
-    {
-    if(d==1)
-    {
-    cout<<"\nShift top disk from tower"<<t1<<" to tower"<<t2;
-    return;
-    }
-    TOH(d-1,t1,t3,t2);
-    cout<<"\nShift top disk from tower"<<t1<<" to tower"<<t2;
-    TOH(d-1,t3,t2,t1);
-    }
-    int main()
-    {
-    int disk;
-    cout<<"Enter the number of disks:"; cin>>disk;
-    if(disk<1)
-    cout<<"There are no disks to shift";
-    else
-    cout<<"There are "<<disk<<"disks in tower 1\n";
-    TOH(disk, '1','2','3');
-    cout<<"\n\n"<<disk<<"disks in tower 1 are shifted to tower 2";
-    getch();
-    return 0;
-    }
+#include<iostream>
+using namespace std;
+
+//tower of HANOI function implementation
+void TOH(int n,char Sour, char Aux,char Des)
+{ 
+	if(n==1)
+	{
+		cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
+		return;
+	}
+	
+	TOH(n-1,Sour,Des,Aux);
+	cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
+	TOH(n-1,Aux,Sour,Des);
+}
+
+//main program
+int main()
+{ 
+	int n;
+	
+	cout<<"Enter no. of disks:";	
+	cin>>n;
+	//calling the TOH 
+	TOH(n,'A','B','C');
+	
+	return 0;
+}
