@@ -1,3 +1,7 @@
+// Github username: sage2002
+// Aim: Make a calculator using java awt
+// Date: 30/10/2022
+
 import java.awt.*;
 import java.awt.event.*;
 class Calculator implements ActionListener
