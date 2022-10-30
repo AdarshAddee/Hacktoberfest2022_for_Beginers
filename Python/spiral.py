@@ -1,3 +1,9 @@
+'''  
+   Github username: @GAUTHAMI-S
+   Aim: Program to print a pattern using turtle library
+   Date: 30/10/2022
+'''
+
 import turtle
 colors=['red','yellow','green','purple','blue','orange']
 
