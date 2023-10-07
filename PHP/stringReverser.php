@@ -1,7 +1,11 @@
-<?php 
-    if(isset($_POST['submit'])) {
-        $res = strrev($_POST['string']);
-    }
+<?php
+$inputString = '';
+$reversedString = '';
+
+if (isset($_POST['submit'])) {
+    $inputString = $_POST['string'];
+    $reversedString = strrev($inputString);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,12 +17,12 @@
 </head>
 <body>
     <form action="stringReverser.php" method="POST">
-        <?php if(isset($res)) { ?>
-            <input type="text" name="string">
-            <input type="submit" name="submit" value="reverse">
-        <?php } else { ?>
-            <p><?php $res ?></p>
-        <?php } ?>
+        <input type="text" name="string" value="<?php echo htmlspecialchars($inputString); ?>">
+        <input type="submit" name="submit" value="Reverse">
     </form>
+    
+    <?php if (!empty($reversedString)) { ?>
+        <p>Reversed String: <?php echo htmlspecialchars($reversedString); ?></p>
+    <?php } ?>
 </body>
 </html>
