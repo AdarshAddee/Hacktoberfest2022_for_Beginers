@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonacci</title>
+    <style>
+      body {
+        background: #ffefd3;
+        display: flex;
+        justify-content: space-between;
+        min-height: 100vh;
+        align-items: center;
+        margin: 0;
+        overflow: hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+      .box {
+        box-shadow: 3px 3px 100px -50px rgb(255, 0, 0);
+        /* animation: popup 1s infinite ease-in-out; */
+      }
+      @keyframes popup {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(100px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
+    function generateFibonaccis(n) {
+      var fib = [1, 1];
+      for (var i = 2; i < n; i++) {
+        fib[i] = fib[i - 2] + fib[i - 1];
+        makeBoxes(fib[i], i);
+      }
+      return fib;
+    }
+    var make = generateFibonaccis(14);
+
+    function makeBoxes(fib, i) {
+      let box = document.createElement("div");
+      console.log(fib);
+      box.classList.add("box");
+      box.style.height = `${fib}px`;
+      box.style.borderRadius = "100%";
+      box.style.width = `${fib}px`;
+      box.style.animation = `popup ${10}s ${i / 10}s infinite ease-in-out`;
+      box.style.backgroundColor = `rgb(${245},${fib * 8},${0})`;
+      document.body.appendChild(box);
+    }
+  </script>
+</html>
