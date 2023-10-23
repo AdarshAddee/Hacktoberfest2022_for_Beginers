@@ -1,0 +1,18 @@
+#Akshada-26
+
+import socket
+
+def get_ip_address_and_hostname():
+    # Get the hostname of the computer
+    hostname = socket.gethostname()
+
+    try:
+        # Get the IP address associated with the hostname
+        ip_address = socket.gethostbyname(hostname)
+        print(f"Hostname: {hostname}")
+        print(f"IP Address: {ip_address}")
+    except socket.gaierror:
+        print("Couldn't get the IP address for the hostname.")
+
+if __name__ == "__main__":
+    get_ip_address_and_hostname()
