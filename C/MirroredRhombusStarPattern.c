@@ -1,3 +1,8 @@
+// Github username: ItsRaviraj
+// Date: 30/10/2023
+
+
+// start coding
 #include <stdio.h>  
 int main()  
 {  
